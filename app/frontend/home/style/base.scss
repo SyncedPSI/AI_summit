@@ -1,0 +1,48 @@
+@import 'normalize.css';
+
+// varibles
+$imgDir: '../images';
+$orange: #e97742;
+
+// function
+@function img-url($img) {
+  @return url('#{$imgDir}/#{$img}');
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  font-family: 'Helvetica Neue', 'Helvetica','Hiragino Sans GB', 'PingHei', 'PingFang SC', 'STHeitiSC-Light', 'Microsoft YaHei','Lantinghei SC', 'Arial', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  font-size: 1.6em;
+  padding: 0px;
+  height: 15000px;
+  margin: 0px;
+  background-image: img-url('bg.jpg');
+  background-color: #071C5D;
+  background-repeat: repeat-x;
+  background-size: 40px auto;
+  background-position: top left;
+}
+
+
+a {
+  color: #fff;
+  transition: all 0.2s;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}

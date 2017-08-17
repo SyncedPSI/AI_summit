@@ -1,0 +1,188 @@
+$header-h: 60px;
+
+.header {
+  color: #fff;
+  position: fixed;
+  width: 100%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 1);
+  z-index: 2;
+
+  &__container {
+    height: $header-h;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+  }
+
+  &__other {
+  }
+
+  &__local {
+    display: inline-block;
+    margin-right: 25px;
+    font-size: 1.8rem;
+
+    a {
+      margin: 0 4px;
+    }
+
+    a.is-active {
+      color: $orange;
+    }
+  }
+
+  &__gais {
+    font-size: 2rem;
+    font-weight: bold;
+
+    &:hover {
+      color: $orange;
+    }
+  }
+
+  .hamburger {
+    display: none;
+    padding: 0;
+    transform: scale(0.6);
+    transform-origin: center right;
+  }
+
+  .hamburger-inner {
+    &,
+    &::before,
+    &::after {
+      background-color: #fff;
+    }
+  }
+}
+
+.nav {
+  height: $header-h;
+  display: flex;
+  align-items: center;
+
+  &__item {
+    font-size: 1.8rem;
+    padding: 0 10px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+    &.is-active {
+      background-color: $orange;
+
+      &::after {
+        width: 100%;
+        border-color: $orange;
+      }
+    }
+  }
+}
+
+.logo {
+  display: flex;
+  align-items: flex-end;
+
+  &__icon {
+    background-image: img-url('logo.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px * 379 / 440;
+    margin-right: 8px;
+  }
+
+  &__text {
+    font-size: 12px;
+  }
+
+  &__cn {
+  }
+
+  &__en {
+    font-size: 10px;
+  }
+
+  &__en-line {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+
+/*
+@media screen and (max-width: '750px') {
+  .header {
+    background: none;
+
+    &__container {
+      height: 50px;
+    }
+
+    &__logo {
+      position: relative;
+      z-index: 40;
+    }
+
+    &__right {
+      position: fixed;
+      width: 100%;
+      left: 0;
+      top: 50px;
+      height: 100vh;
+      flex-direction: column;
+      justify-content: center;
+      background-color: #000;
+      z-index: 20;
+      background-size: 100%;
+      background-position: left;
+      padding-bottom: 60px;
+      transform: translateY(-100%);
+      transition: all 0.3s;
+
+      .nav {
+        height: auto;
+        flex-direction: column;
+        margin-bottom: 20px;
+
+        &__item {
+          font-size: 2rem;
+          margin-bottom: 30px;
+          margin-right: 0;
+        }
+      }
+    }
+
+    &__other {
+      display: flex;
+      flex-direction: column;
+    }
+
+    &__local {
+      margin-bottom: 20px;
+      margin-right: 0;
+    }
+
+    .hamburger {
+      z-index: 40;
+      display: inline-block;
+    }
+
+
+    &.is-active {
+      .header__right {
+        top: 0;
+        transform: translateY(0);
+      }
+    }
+  }
+}
+ */
