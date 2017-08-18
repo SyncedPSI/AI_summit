@@ -1,8 +1,12 @@
+// base
 @import 'normalize.css';
-
 @import './base';
 @import './icon';
 
+// shared
 @import './header';
+@import './module_title';
 
+// modules
 @import './banner';
+@import './about';

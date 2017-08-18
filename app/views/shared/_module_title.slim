@@ -1,0 +1,5 @@
+.c-title
+  span.c-title__icon
+    - points.each do |ponit|
+      span class="#{ponit == 0 ? 't-cyan' : 't-orange'}"
+  span.c-title__text=title

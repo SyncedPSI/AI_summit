@@ -1,0 +1,41 @@
+.c-title {
+  color: #fff;
+  display: flex;
+  align-items: flex-end;
+
+  &__icon {
+    display: inline-block;
+    line-height: 0;
+    width: 34px;
+
+    span {
+      display: inline-block;
+      width: 16px;
+      height: 16px;
+      background-color: #fff;
+      margin-bottom: 2px;
+
+      &:nth-child(2n - 1) {
+        margin-right: 2px;
+      }
+
+      &:nth-child(n + 5) {
+        margin-bottom: 0;
+      }
+    }
+
+    .t-cyan {
+      background-color: $cyan;
+    }
+
+    .t-orange {
+      background-color: $orange;
+    }
+  }
+
+  &__text {
+    color: $orange;
+    font-size: 4rem;
+    margin-left: 12px;
+  }
+}

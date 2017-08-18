@@ -8,6 +8,8 @@ $cyan: #26b7bc;
   @return url('#{$imgDir}/#{$img}');
 }
 
+// mixin
+
 
 * {
   box-sizing: border-box;
@@ -28,7 +30,8 @@ body {
   background-size: 90%, 100%;
   background-position: top center, top left;
   background-color: #040848;
-
+  color: #fff;
+  padding-bottom: 800px;
 }
 
 
@@ -39,7 +42,7 @@ a {
 }
 
 .container {
-  max-width: 1024px;
+  max-width: 1100px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
