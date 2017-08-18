@@ -7,10 +7,26 @@
   background-position: center;
 
   &.icon-address {
-    background-image: img-url('icon-address.png');
+    background-image: img-url('icons/icon-address.png');
   }
 
   &.icon-time {
-    background-image: img-url('icon-time.png');
+    background-image: img-url('icons/icon-time.png');
+  }
+
+  &.icon-earth {
+    background-image: img-url('icons/icon-earth.png');
+  }
+
+  &.icon-plan {
+    background-image: img-url('icons/icon-plan.png');
+  }
+
+  &.icon-inst {
+    background-image: img-url('icons/icon-inst.png');
+  }
+
+  &.icon-person {
+    background-image: img-url('icons/icon-person.png');
   }
 }
