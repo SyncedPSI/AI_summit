@@ -1,0 +1,50 @@
+.sponsor {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 2.4rem;
+
+  &__content {
+    padding: 95px 0;
+  }
+
+  &__inline {
+    margin-bottom: 50px;
+  }
+
+  &__label {
+    color: $cyan;
+    line-height: 2;
+  }
+
+  &__unit {
+    line-height: 1.5;
+  }
+
+  &__links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 80px;
+    margin-top: 5px;
+  }
+
+  &__logo {
+    display: inline-block;
+    width: 22%;
+    line-height: 0;
+
+    img {
+      width: 100%;
+    }
+
+    &:nth-last-child(n + 5) {
+      margin-bottom: 25px;
+    }
+
+    &:hover {
+      opacity: 0.8;
+      transform: translateY(-3px);
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    }
+  }
+}

@@ -1,0 +1,36 @@
+- links = [ \
+  { title: '机器之心', logo: 'logos/logo-synced.png', href: 'javascript:;'}, \
+  { title: '高创中国', logo: 'logos/logo-gaochuangcn.png', href: 'javascript:;'},  \
+  { title: 'Horizon Robotics', logo: 'logos/logo-horizon.png', href: 'javascript:;'}, \
+  { title: 'Face++', logo: 'logos/logo-face.png', href: 'javascript:;'},  \
+  { title: '创新工场', logo: 'logos/logo-innovation.png', href: 'javascript:;'}, \
+  { title: '今日头条', logo: 'logos/logo-toutiao.png', href: 'javascript:;'},  \
+  { title: '联想之心', logo: 'logos/logo-star.png', href: 'javascript:;'}, \
+  { title: 'COMETLABS', logo: 'logos/logo-comet.png', href: 'javascript:;'},  \
+  { title: '长城会', logo: 'logos/logo-wall.png', href: 'javascript:;'}, \
+  { title: 'ROBOT SPACE', logo: 'logos/logo-robot-space.png', href: 'javascript:;'},  \
+  { title: '第一创客', logo: 'logos/logo-startup.png', href: 'javascript:;'}, \
+  { title: '镁客网', logo: 'logos/logo-meike.png', href: 'javascript:;'}  \
+]
+
+section.sponsor
+  .container
+    = render 'shared/module_title', points: [0, 1, 1, 0, 1, 0], title: '峰会组织单位'
+    .sponsor__content
+      .sponsor__inline
+        .sponsor__label 主办单位
+        .sponsor__unit 南京市人民政府、中国人工智能产业发展联盟（筹）
+      .sponsor__inline
+        .sponsor__label 承办单位
+        .sponsor__unit 南京市商务局、南京市科学技术委员会、
+        .sponsor__unit 南京经济技术开发区管理委员会、中国信息通信研究院
+      .sponsor__inline
+        .sponsor__label 协办单位
+        .sponsor__unit 国际计算机学会（ACM）、国际人工智能协会（AAAI）、
+        .sponsor__unit 中国人工智能学会、江苏省人工智能学会
+      .sponsor__inline
+        .sponsor__label 支持单位
+        .sponsor__links
+          - links.each do |link|
+            a.sponsor__logo href=link[:href] alt=link[:title] target="_blank"
+              img src=image_path(link[:logo])
