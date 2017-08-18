@@ -1,17 +1,17 @@
 .agenda {
   color: $cyan;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   text-align: right;
 
   &-content {
     width: 50%;
     border-right: 2px solid $cyan;
+    margin: 5rem 0 10rem 0;
   }
 
   &-inline {
-    padding: 0 20px;
+    padding: 20px;
     position: relative;
-    margin: 20px 0;
 
     &::before {
       content: '';
@@ -27,8 +27,11 @@
     margin: 0;
     line-height: 2rem;
 
-    .iconfont {
+    .icon {
+      width: 20px;
+      height: 20px;
       padding: 0 10px;
+      vertical-align: middle;
     }
   }
 
@@ -47,10 +50,18 @@
       padding-left: 30px;
     }
 
-    .iconfont {
+    .icon {
       position: absolute;
       margin-left: -30px;
     }
   }
 
+  &-inline:first-child {
+    padding-top: 0;
+  }
+
+  &-inline:last-child {
+    float: left;
+    padding: 0 20px 6rem 20px;
+  }
 }

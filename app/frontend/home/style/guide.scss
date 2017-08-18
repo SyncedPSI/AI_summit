@@ -1,17 +1,21 @@
 .guide {
+  &-content {
+    padding: 3rem 0;
+  }
+
   &__image {
     width: 100%;
   }
 
   &__title {
     color: $cyan;
-    font-size: 2rem;
+    font-size: 2.2rem;
     margin: 1.5rem 0;
   }
 
   &__description {
     line-height: 2.4rem;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
   }
 
   &-location {
@@ -21,7 +25,7 @@
     &-inline {
       float: left;
       width: 60%;
-      font-size: 1.6rem;
+      font-size: 1.8rem;
       line-height: 2rem;
 
       &:nth-child(2n) {
@@ -30,10 +34,10 @@
     }
 
     &__title {
-      .iconfont {
-        color: $cyan;
-        font-size: 3.2rem;
-        padding-right: 5px;
+      .icon {
+        width: 2rem;
+        height: 3rem;
+        margin-right: 5px;
       }
     }
   }

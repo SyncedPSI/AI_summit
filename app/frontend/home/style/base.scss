@@ -49,3 +49,16 @@ a {
   padding-left: 15px;
   padding-right: 15px;
 }
+
+.clearfix {
+  zoom: 1;
+
+  &::after {
+    content:"";
+    display:block;
+    height:0;
+    clear:both;
+    visibility:hidden;
+  }
+}
+
