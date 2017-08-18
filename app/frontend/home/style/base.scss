@@ -1,8 +1,7 @@
-@import 'normalize.css';
-
 // varibles
 $imgDir: '../images';
 $orange: #e97742;
+$cyan: #26b7bc;
 
 // function
 @function img-url($img) {
@@ -23,13 +22,13 @@ html {
 body {
   font-size: 1.6em;
   padding: 0px;
-  height: 15000px;
   margin: 0px;
-  background-image: img-url('bg.jpg');
-  background-color: #071C5D;
-  background-repeat: repeat-x;
-  background-size: 40px auto;
-  background-position: top left;
+  background-image: img-url('bg-stars.png'), img-url('bg.jpg');
+  background-repeat: repeat-x, no-repeat;
+  background-size: 90%, 100%;
+  background-position: top center, top left;
+  background-color: #040848;
+
 }
 
 
