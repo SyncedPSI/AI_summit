@@ -1,3 +1,56 @@
 .agenda {
-  
+  color: $cyan;
+  font-size: 1.6rem;
+  text-align: right;
+
+  &-content {
+    width: 50%;
+    border-right: 2px solid $cyan;
+  }
+
+  &-inline {
+    padding: 0 20px;
+    position: relative;
+    margin: 20px 0;
+
+    &::before {
+      content: '';
+      display: block;
+      border: 5px solid $cyan;
+      position: absolute;
+      right: 0;
+      margin-right: -5px;
+    }
+  }
+
+  &-inline__detail {
+    margin: 0;
+    line-height: 2rem;
+
+    .iconfont {
+      padding: 0 10px;
+    }
+  }
+
+  &-inline:nth-child(2n-1) {
+    text-align: left;
+    width: 100%;
+    margin-left: 100%;
+
+    &::before {
+      left: 0;
+      right: auto;
+      margin-left: -5px;
+    }
+
+    .agenda-inline__detail {
+      padding-left: 30px;
+    }
+
+    .iconfont {
+      position: absolute;
+      margin-left: -30px;
+    }
+  }
+
 }

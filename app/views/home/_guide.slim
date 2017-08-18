@@ -1,27 +1,30 @@
 .guide
-  .guide-image
-  .guide__title 南京国际博览会议中心
-  .guide__description 南京国际博览中心由南京市河西新城区国有资产经营控股（集团）有限责任公司投资建设，南京河西会议展览有限责任公司经营管理。是美国TVS公司集合中西方建筑设计精髓之力作，融汇世界最新会展理念和南京地域特色，形成“虎踞龙盘”的独特建筑风格，规模宏大，气势磅礴。
-  .guide__description 坐落于南京河西新城中心位置，南京国际博览中心是一座集展会、会议、酒店、配套服务于一体的现代化会展场馆。
-  .guide-location
-    .guide-location-inline
-      .guide-location__title
-        i.iconfont
-        | 地铁：
-      .guide-location__description 10号线、2号线博览中心·元通站下车4号口，出口步行5分钟
-      .guide-location__description 有轨电车1号线，博览中心·元通站，出口步行5分钟。
-    .guide-location-inline
-      .guide-location__title
-        i.iconfont
-        | 附近酒店：
-      .guide-location__description 南京国际博览中心酒店 230米
-      .guide-location__description 南京新华传媒粤海国际大酒店 520米
-      .guide-location__description 南京金奥费尔蒙酒店 1210米
-    .guide-location-inline
-      .guide-location__title
-        i.iconfont
-        | 公交路线：
-      .guide-location__description 109路、b2路（江东中路·金陵会议中心站）
-      .guide-location__description 85路（河西大街·元通东站）
-      .guide-location__description 134路（河西大街·元通西站）
-      .guide-location__description 109路（江东中路·元通站）
+  .container
+    = render 'shared/module_title', points: [1, 1, 0, 1, 1, 0], title: '参会指南'
+    div
+      img.guide__image src='http://0.0.0.0:8080/packs/center-img.png'
+    .guide__title 南京国际博览会议中心
+    .guide__description 南京国际博览中心由南京市河西新城区国有资产经营控股（集团）有限责任公司投资建设，南京河西会议展览有限责任公司经营管理。是美国TVS公司集合中西方建筑设计精髓之力作，融汇世界最新会展理念和南京地域特色，形成“虎踞龙盘”的独特建筑风格，规模宏大，气势磅礴。
+    .guide__description 坐落于南京河西新城中心位置，南京国际博览中心是一座集展会、会议、酒店、配套服务于一体的现代化会展场馆。
+    .guide-location
+      .guide-location-inline
+        .guide-location__title
+          i.iconfont.icon-ditie
+          | 地铁：
+        .guide-location__description 10号线、2号线博览中心·元通站下车4号口，出口步行5分钟
+        .guide-location__description 有轨电车1号线，博览中心·元通站，出口步行5分钟。
+      .guide-location-inline
+        .guide-location__title
+          i.iconfont.icon-icon
+          | 附近酒店：
+        .guide-location__description 南京国际博览中心酒店 230米
+        .guide-location__description 南京新华传媒粤海国际大酒店 520米
+        .guide-location__description 南京金奥费尔蒙酒店 1210米
+      .guide-location-inline
+        .guide-location__title
+          i.iconfont.icon-huoche
+          | 公交路线：
+        .guide-location__description 109路、b2路（江东中路·金陵会议中心站）
+        .guide-location__description 85路（河西大街·元通东站）
+        .guide-location__description 134路（河西大街·元通西站）
+        .guide-location__description 109路（江东中路·元通站）

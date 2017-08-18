@@ -1,3 +1,41 @@
 .footer {
-  
+  background-color: #FFF;
+  padding: 4rem 0;
+
+  &__title {
+    font-size: 3rem;
+    color: $orange;
+  }
+
+  &-content {
+    overflow: hidden;
+  }
+
+  &-inline {
+    float: left;
+    width: 50%;
+
+    &__title {
+      font-size: 2rem;
+    }
+  }
+
+  &-person {
+    border-left: 1px solid $orange;
+    font-size: 1.6rem;
+    padding-left: 15px;
+    color: #595959;
+
+    .iconfont {
+      color: $orange;
+      position: absolute;
+      margin-left: -30px;
+    }
+
+    &__contact {
+      padding-left: 30px;
+      margin: 0;
+      line-height: 2rem;
+    }
+  }
 }

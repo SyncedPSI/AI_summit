@@ -1,2 +1,14 @@
 .attend
-  span.attend__button 我要参会
+  .container
+    = render 'shared/module_title', points: [0, 1, 0, 1, 1, 0], title: '我要参会'
+    .attend-content
+      .attend-inline__left
+         = render 'shared/solgan'
+      .attend-inline__right
+        / img src="/packs/logo.png"
+        / .attend-inline__title
+        /   p 2017中国·南京金秋经贸洽谈会
+        /   p 2017 China Nanjing Golden Autumn Economic and Trade Fair
+        / .attend-inline__logo CAIS 2017
+    div.attend__button
+      span 点击参会

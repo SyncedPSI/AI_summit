@@ -1,3 +1,35 @@
 .attend {
-  
+
+  &-content {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+  }
+
+  &-inline {
+
+    &__left {
+      width: 80%;
+      border: 1px solid #fff;
+      border-radius: 10px;
+    }
+
+    &__right {
+      width: 20%;
+      background-color: #FFF;
+      border-radius: 10px;
+    }
+  }
+
+  &__button {
+    text-align: center;
+    margin-top: 20px;
+
+    span {
+      padding: 10px 50px;
+      border: 2px solid $cyan;
+      border-radius: 5px;
+      font-size: 2rem;
+    }
+  }
 }
