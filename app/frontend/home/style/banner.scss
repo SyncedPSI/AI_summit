@@ -46,7 +46,15 @@
 
   .icon {
     width: 30px;
-    height: 30px;
+    height: 32px;
     margin-right: 10px;
+  }
+
+  .icon-time {
+    background-position: 0 -222px;
+  }
+
+  .icon-address {
+    background-position: 0 -264px;
   }
 }

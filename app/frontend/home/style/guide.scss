@@ -1,0 +1,44 @@
+.guide {
+  &-content {
+    padding: 3rem 0 8rem 0;
+  }
+
+  &__image {
+    width: 100%;
+  }
+
+  &__title {
+    color: $cyan;
+    font-size: 2.2rem;
+    margin: 1.5rem 0;
+  }
+
+  &__description {
+    line-height: 2.4rem;
+    font-size: 1.8rem;
+  }
+
+  &-location {
+    overflow: hidden;
+    margin-top: 2rem;
+
+    &-inline {
+      float: left;
+      width: 60%;
+      font-size: 1.8rem;
+      line-height: 2rem;
+
+      &:nth-child(2n) {
+        width: 40%;
+      }
+    }
+
+    &__title {
+      .icon {
+        width: 2rem;
+        height: 3rem;
+        margin-right: 5px;
+      }
+    }
+  }
+}
