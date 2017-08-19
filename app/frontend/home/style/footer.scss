@@ -1,6 +1,6 @@
 .footer {
   background-color: #FFF;
-  padding: 8rem 0;
+  padding: 80px 0;
 
   a {
     color: #595959;
@@ -9,7 +9,7 @@
       color: $orange;
     }
   }
-  
+
   &__title {
     font-size: 4rem;
     color: $orange;
@@ -53,6 +53,35 @@
       align-items: center;
       padding-left: 30px;
       margin: 0;
+    }
+  }
+}
+
+// media query
+@media screen and (max-width: $breakpoint-medium) {
+  .footer {
+    padding: 50px 0;
+
+    &__title {
+      font-size: 2.8rem;
+    }
+
+    &-inline {
+      width: 100%;
+    }
+
+    &-person {
+      font-size: 1.8rem;
+      margin-bottom: 40px;
+      line-height: 1.5;
+    }
+
+    &-person__name {
+      font-size: 1.8rem;
+    }
+
+    &-inline__title {
+      font-size: 1.8rem;
     }
   }
 }

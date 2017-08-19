@@ -24,7 +24,7 @@ development:
   <<: *default
 
   dev_server:
-    host: 0.0.0.0
+    host: 192.168.0.197
     port: 8080
     https: false
 

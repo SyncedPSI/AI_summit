@@ -1,10 +1,10 @@
 // import $ from 'jquery';
-import nav from './nav';
+import header from './header';
 
 import './style';
 
 const home = () => {
-  nav();
+  header();
 }
 
 export default home;

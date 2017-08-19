@@ -48,3 +48,30 @@
     }
   }
 }
+
+// media query
+@media screen and (max-width: $breakpoint-medium) {
+  .guide {
+    font-size: 1.8rem;
+    margin-top: 50px;
+
+    &-content {
+      padding-bottom: 50px; 
+    }
+
+    &__description {
+      font-size: 1.6rem;
+    }
+
+    &-location {
+
+      &__description {
+        font-size: 1.6rem;
+      }
+    }
+
+    &-location-inline {
+      width: 100%;
+    }
+  }
+}

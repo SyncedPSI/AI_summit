@@ -12,3 +12,7 @@ html lang="en"
     = yield
     = render 'shared/footer'
     = javascript_pack_tag "application"
+    - if Rails.env.development?
+      script src="//cdn.jsdelivr.net/eruda/1.2.2/eruda.min.js"
+      javascript:
+        eruda.init();

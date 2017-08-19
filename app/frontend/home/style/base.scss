@@ -3,6 +3,10 @@ $imgDir: '../images';
 $orange: #e97742;
 $cyan: #26b7bc;
 
+// media query
+$breakpoint-medium: 768px;
+
+
 // function
 @function img-url($img) {
   @return url('#{$imgDir}/#{$img}');
@@ -26,10 +30,10 @@ body {
   padding: 0px;
   margin: 0px;
   background-image: img-url('bg-stars.png'), img-url('bg.jpg');
-  background-repeat: repeat-x, no-repeat;
+  background-repeat: repeat-y, no-repeat;
   background-size: 90%, 100%;
   background-position: top center, top left;
-  background-color: #040848;
+  background-color: #071e5e;
   color: #fff;
   background-attachment: fixed, fixed;
 }
@@ -53,10 +57,20 @@ a {
   zoom: 1;
 
   &::after {
-    content:"";
-    display:block;
-    height:0;
-    clear:both;
-    visibility:hidden;
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+  }
+}
+
+
+// media query
+@media screen and (max-width: $breakpoint-medium) {
+  body {
+    background-image: img-url('bg-stars.png'), img-url('bg-mobile.jpg');
+    background-color: #092869;
+    background-attachment: scroll, scroll;
   }
 }

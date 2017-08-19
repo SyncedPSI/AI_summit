@@ -39,3 +39,21 @@
     margin-left: 12px;
   }
 }
+
+// media query
+@media screen and (max-width: $breakpoint-medium) {
+  .c-title {
+    &__icon {
+      width: 26px;
+
+      span {
+        width: 12px;
+        height: 12px;
+      }
+    }
+
+    &__text {
+      font-size: 2.8rem;
+    }
+  }
+}

@@ -71,3 +71,30 @@
     line-height: 1.4;
   }
 }
+
+// media query
+@media screen and (max-width: $breakpoint-medium) {
+  .guests {
+    margin-top: 10px;
+
+    &__content {
+      padding: 40px 0 30px;
+    }
+
+    &__item {
+      width: 48%;
+
+      &:nth-last-child(n + 4) {
+        margin-bottom: 45px;
+      }
+    }
+  }
+
+  .guest {
+    font-size: 1.8rem;
+
+    &__intro {
+      font-size: 1.6rem;
+    }
+  }
+}

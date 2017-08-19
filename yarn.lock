@@ -2001,6 +2001,10 @@ graceful-fs@^4.1.2, graceful-fs@^4.1.6, graceful-fs@^4.1.9:
   version "4.1.11"
   resolved "http://registry.npm.taobao.org/graceful-fs/download/graceful-fs-4.1.11.tgz#0e8bdfe4d1ddb8854d64e04ea7c00e2a026e5658"
 
+hamburgers@^0.9.1:
+  version "0.9.1"
+  resolved "http://registry.npm.taobao.org/hamburgers/download/hamburgers-0.9.1.tgz#49bc3bca667a693a8458388c9ef265ae611348d5"
+
 handle-thing@^1.2.5:
   version "1.2.5"
   resolved "http://registry.npm.taobao.org/handle-thing/download/handle-thing-1.2.5.tgz#fd7aad726bf1a5fd16dfc29b2f7a6601d27139c4"
@@ -2723,6 +2727,10 @@ mathjs@^3.11.5:
     tiny-emitter "2.0.0"
     typed-function "0.10.5"
 
+mdetect@^1.2.3:
+  version "1.2.3"
+  resolved "http://registry.npm.taobao.org/mdetect/download/mdetect-1.2.3.tgz#446737f35832877fd0453e51ab6bc25d168be3de"
+
 media-typer@0.3.0:
   version "0.3.0"
   resolved "http://registry.npm.taobao.org/media-typer/download/media-typer-0.3.0.tgz#8710d7af0aa626f8fffa1ce00168545263255748"
@@ -3006,6 +3014,10 @@ normalize-url@^1.4.0:
     prepend-http "^1.0.0"
     query-string "^4.1.0"
     sort-keys "^1.0.0"
+
+normalize.css@^7.0.0:
+  version "7.0.0"
+  resolved "http://registry.npm.taobao.org/normalize.css/download/normalize.css-7.0.0.tgz#abfb1dd82470674e0322b53ceb1aaf412938e4bf"
 
 npm-run-path@^2.0.0:
   version "2.0.2"

@@ -36,7 +36,6 @@
   }
 
   &__line {
-    line-height: 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -47,5 +46,43 @@
     width: 30px;
     height: 32px;
     margin-right: 10px;
+  }
+}
+
+
+
+// media query
+@media screen and (max-width: $breakpoint-medium) {
+  .banner {
+    &__invite-btn {
+      font-size: 1.8rem;
+    }
+  }
+
+  .solgan {
+    &__card {
+      background-size: 190%;
+      padding-bottom: 365 / 1920 * 190%;
+    }
+
+    &__info {
+      top: 0;
+      font-size: 1.6rem;
+      margin-bottom: 60px;
+    }
+
+    .icon {
+      width: 20px;
+      height: 20px;
+    }
+
+    &__line {
+      margin-bottom: 10px;
+
+      span {
+        width: 80%;
+        text-align: left;
+      }
+    }
   }
 }

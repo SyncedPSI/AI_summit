@@ -117,17 +117,12 @@ $header-h: 60px;
   }
 }
 
-
-/*
-@media screen and (max-width: '750px') {
+// media query
+@media screen and (max-width: $breakpoint-medium) {
   .header {
     background: none;
 
-    &__container {
-      height: 50px;
-    }
-
-    &__logo {
+    .logo {
       position: relative;
       z-index: 40;
     }
@@ -136,11 +131,11 @@ $header-h: 60px;
       position: fixed;
       width: 100%;
       left: 0;
-      top: 50px;
+      top: 60px;
       height: 100vh;
       flex-direction: column;
       justify-content: center;
-      background-color: #000;
+      background-color: rgba(0, 0, 0, 0.9);
       z-index: 20;
       background-size: 100%;
       background-position: left;
@@ -154,28 +149,19 @@ $header-h: 60px;
         margin-bottom: 20px;
 
         &__item {
+          display: inline-block;
           font-size: 2rem;
-          margin-bottom: 30px;
+          margin-bottom: 20px;
           margin-right: 0;
+          padding: 8px 15px;
         }
       }
-    }
-
-    &__other {
-      display: flex;
-      flex-direction: column;
-    }
-
-    &__local {
-      margin-bottom: 20px;
-      margin-right: 0;
     }
 
     .hamburger {
       z-index: 40;
       display: inline-block;
     }
-
 
     &.is-active {
       .header__right {
@@ -185,4 +171,3 @@ $header-h: 60px;
     }
   }
 }
- */
