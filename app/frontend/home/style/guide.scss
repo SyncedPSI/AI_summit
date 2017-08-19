@@ -1,6 +1,9 @@
 .guide {
+  font-size: 2.4rem;
+  margin-top: 130px;
+
   &-content {
-    padding: 3rem 0 8rem 0;
+    padding: 30px 0 100px;
   }
 
   &__image {
@@ -9,33 +12,36 @@
 
   &__title {
     color: $cyan;
-    font-size: 2.2rem;
-    margin: 1.5rem 0;
+    margin: 25px 0 15px;
+    font-weight: bold;
   }
 
   &__description {
-    line-height: 2.4rem;
-    font-size: 1.8rem;
+    font-size: 2rem;
+    line-height: 1.5;
   }
 
   &-location {
     overflow: hidden;
-    margin-top: 2rem;
+    margin-top: 40px;
+    font-size: 2rem;
+    line-height: 1.5;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 
     &-inline {
-      float: left;
-      width: 60%;
-      font-size: 1.8rem;
-      line-height: 2rem;
-
-      &:nth-child(2n) {
-        width: 40%;
-      }
+      width: 45%;
+      margin-bottom: 20px;
     }
 
     &__title {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+
       .icon {
-        width: 2rem;
+        width: 3rem;
         height: 3rem;
         margin-right: 5px;
       }

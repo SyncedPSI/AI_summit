@@ -2,13 +2,23 @@
   background-color: #FFF;
   padding: 8rem 0;
 
+  a {
+    color: #595959;
+
+    &:hover {
+      color: $orange;
+    }
+  }
+  
   &__title {
-    font-size: 3rem;
+    font-size: 4rem;
     color: $orange;
   }
 
   &-content {
     overflow: hidden;
+    color: #595959;
+    margin-top: 36px;
   }
 
   &-inline {
@@ -16,27 +26,33 @@
     width: 50%;
 
     &__title {
-      font-size: 2rem;
+      font-size: 2.4rem;
     }
   }
 
   &-person {
     border-left: 1px solid $orange;
-    font-size: 1.8rem;
+    font-size: 2rem;
     padding-left: 15px;
-    color: #595959;
+    line-height: 2;
+    margin-top: 10px;
+
+    &__name {
+      font-size: 2.4rem;
+    }
 
     .icon {
       position: absolute;
-      height: 2.2rem;
-      width: 1.6rem;
+      height: 20px;
+      width: 20px;
       margin-left: -30px;
     }
 
     &__contact {
+      display: flex;
+      align-items: center;
       padding-left: 30px;
       margin: 0;
-      line-height: 2rem;
     }
   }
 }

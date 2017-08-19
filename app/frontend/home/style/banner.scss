@@ -19,14 +19,13 @@
 }
 
 .solgan {
-  color: #fff;
-
   &__card {
     background-image: img-url('banner-solgan.png');
     padding-bottom: 365 / 1920 * 100%;
     width: 100%;
     background-size: 100%;
     background-repeat: no-repeat;
+    background-position: center;
   }
 
   &__info {
@@ -48,13 +47,5 @@
     width: 30px;
     height: 32px;
     margin-right: 10px;
-  }
-
-  .icon-time {
-    background-position: 0 -222px;
-  }
-
-  .icon-address {
-    background-position: 0 -264px;
   }
 }

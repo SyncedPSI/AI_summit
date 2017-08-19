@@ -1,12 +1,14 @@
 .attend {
+  margin-top: 100px;
 
   p {
     margin: 0;
   }
 
   &-content {
-    width: 90%;
+    width: 68%;
     margin: 4rem auto 8rem auto;
+    text-align: center;
   }
 
   &-inline {
@@ -14,21 +16,21 @@
     position: relative;
 
     &__left {
-      width: 75%;
+      width: 77%;
       border: 1px solid #fff;
-      border-radius: 10px;
-      padding: 3rem 0;
+      border-radius: 15px;
+      padding: 15px 0;
     }
 
     &__right {
       position: absolute;
       top: 0;
       right: 0;
-      width: 25%;
+      width: 23%;
       height: 100%;
       background: #FFF img-url('logo.png') center 20% no-repeat;
       background-size: 50%;
-      border-radius: 10px;
+      border-radius: 15px;
       color: #595959;
     }
 
@@ -38,7 +40,7 @@
       width: 50%;
       position: absolute;
       right: 25%;
-      top: 51%;
+      top: 45%;
 
     }
 
@@ -49,32 +51,48 @@
       width: 100%;
       text-align: center;
       font-size: 2rem;
+      font-weight: bold;
     }
   }
 
   &__button {
-    text-align: center;
-    margin: 6rem 0 5rem 0;
+    display: inline-block;
+    font-size: 2.4rem;
+    color: $cyan;
+    padding: 10px 50px;
+    border: 2px solid $cyan;
+    font-weight: bold;
+    margin-top: 70px;
+    border-radius: 13px;
 
-    span {
-      padding: 10px 50px;
-      border: 2px solid $cyan;
-      border-radius: 5px;
-      font-size: 2rem;
+    &:hover {
+      color: #fff;
+      background-color: $cyan;
     }
   }
-  .solgan .icon  {
-    width: 20px;
-    height: 22px;
-  }
 
-  .solgan__info {
-    font-size: 1.6rem;
-    margin: 0;
-    top: 0;
-  }
+  .solgan {
+    border-right: 2px dashed #898b8f;
+    padding: 22px 0 10px;
 
-  .solgan__line {
-    margin-bottom: 5px;
+    .icon  {
+      width: 20px;
+      height: 22px;
+    }
+
+    &__card {
+      background-size: 180%;
+      padding-bottom: 365 / 1920 * 180%;
+    }
+
+    &__info {
+      font-size: 1.6rem;
+      margin: 0;
+      top: -15px;
+    }
+
+    &__line {
+      margin-bottom: 5px;
+    }
   }
 }
