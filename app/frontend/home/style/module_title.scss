@@ -7,6 +7,7 @@
     display: inline-block;
     line-height: 0;
     width: 34px;
+    flex-shrink: 0;
 
     span {
       display: inline-block;
@@ -40,8 +41,17 @@
   }
 }
 
+// locale
+@include lang('en') {
+  .c-title {
+    &__text {
+      font-size: 3.2rem;
+    }
+  }
+}
+
 // media query
-@media screen and (max-width: $breakpoint-medium) {
+@include media-median {
   .c-title {
     &__icon {
       width: 26px;
@@ -54,6 +64,16 @@
 
     &__text {
       font-size: 2.8rem;
+    }
+  }
+}
+
+@include lang('en') {
+  @include media-median {
+    .c-title {
+      &__text {
+        font-size: 2.6rem;
+      }
     }
   }
 }

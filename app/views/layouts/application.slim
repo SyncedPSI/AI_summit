@@ -8,7 +8,7 @@ html lang=I18n.locale
     / = display_meta_tags(default_meta_tags)
     = csrf_meta_tags
     = stylesheet_pack_tag "application"
-  body
+  body#app
     = render 'shared/header'
     = yield
     = render 'shared/footer'

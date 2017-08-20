@@ -4,7 +4,9 @@
     .solgan__line
       i.icon.icon-time
       span =t('solgan.time')
-    .solgan__line
-      i.icon.icon-address
-      span =t('solgan.address')
-      span =t('solgan.address_hint')
+    .solgan__line.is-special
+      .solgan__address
+        i.icon.icon-address
+        span =t('solgan.address')
+      .solgan__address-hint
+        =t('solgan.address_hint')

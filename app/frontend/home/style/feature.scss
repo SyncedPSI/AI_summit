@@ -25,8 +25,18 @@
   }
 }
 
+
+// locale
+@include lang('en') {
+  .feature {
+    &__text {
+      font-size: 1.6rem;
+    }
+  }
+}
+
 // media query
-@media screen and (max-width: $breakpoint-medium) {
+@include media-median {
   .feature {
     margin-top: 40px;
 
@@ -50,6 +60,21 @@
     .icon {
       width: 40px;
       height: 40px;
+    }
+  }
+}
+
+
+@include lang('en') {
+  @include media-median {
+    .feature {
+      &__item {
+        width: 100%;
+
+        &:nth-last-child(n+2) {
+          margin-bottom: 15px;
+        }
+      }
     }
   }
 }

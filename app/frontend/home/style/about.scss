@@ -8,8 +8,18 @@
   }
 }
 
+// locale
+@include lang('en') {
+  .about {
+    &__content {
+      font-size: 1.8rem;
+    }
+  }
+}
+
+
 // media query
-@media screen and (max-width: $breakpoint-medium) {
+@include media-median {
   .about {
     &__content {
       font-size: 1.6rem;

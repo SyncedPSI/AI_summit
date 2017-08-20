@@ -13,7 +13,20 @@ $breakpoint-medium: 768px;
 }
 
 // mixin
+@mixin lang($lang) {
+  html[lang=#{$lang}] {
+    @content;
+  }
+}
 
+@mixin media-median {
+  // media query
+  @media screen and (max-width: $breakpoint-medium) {
+    #app {
+      @content;
+    }
+  }
+}
 
 * {
   box-sizing: border-box;
@@ -67,7 +80,7 @@ a {
 
 
 // media query
-@media screen and (max-width: $breakpoint-medium) {
+@include media-median {
   body {
     background-image: img-url('bg-stars.png'), img-url('bg-mobile.jpg');
     background-color: #092869;

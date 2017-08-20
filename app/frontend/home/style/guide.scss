@@ -49,14 +49,33 @@
   }
 }
 
+// locale
+@include lang('en') {
+  .guide {
+    font-size: 2rem;
+
+    &__description {
+      font-size: 1.8rem;
+    }
+
+    &-location {
+      font-size: 1.8rem;
+    }
+
+    &-location__title {
+      font-weight: bold;
+    }
+  }
+}
+
 // media query
-@media screen and (max-width: $breakpoint-medium) {
+@include media-median {
   .guide {
     font-size: 1.8rem;
     margin-top: 50px;
 
     &-content {
-      padding-bottom: 50px; 
+      padding-bottom: 50px;
     }
 
     &__description {

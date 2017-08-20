@@ -49,8 +49,19 @@
   }
 }
 
+// locale
+@include lang('en') {
+  .sponsor {
+    font-size: 2rem;
+
+    &__label {
+      font-weight: bold;
+    }
+  }
+}
+
 // media query
-@media screen and (max-width: $breakpoint-medium) {
+@include media-median {
   .sponsor {
     font-size: 1.8rem;
     margin-top: 40px;

@@ -97,8 +97,39 @@
   }
 }
 
+// locale
+@include lang('en') {
+  .attend {
+    .solgan {
+      .icon  {
+        width: 15px;
+        height: 15px;
+      }
+
+      &__card {
+        background-size: 180%;
+        padding-bottom: 365 / 1920 * 180%;
+      }
+
+      &__info {
+        font-size: 1.4rem;
+        margin-bottom: 0;
+      }
+
+      &__address-hint {
+        font-size: 1.2rem;
+      }
+    }
+
+    &__button {
+      font-size: 2rem;
+    }
+  }
+}
+
+
 // media query
-@media screen and (max-width: $breakpoint-medium) {
+@include media-median {
   .attend {
     margin-top: 30px;
 
@@ -153,6 +184,7 @@
 
       &__info {
         top: -8px;
+        margin-bottom: 0;
       }
     }
   }

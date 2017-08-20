@@ -31,10 +31,10 @@ header.header#site-header
           =t('section.guide')
       .header__other
         .header__local
-          a.is-active href="/" 
+          a class="#{'is-active' if I18n.locale == :zh}" href="/" 
             =t('header.cn')
           span |
-          a href="/?locale=en"
+          a class="#{'is-active' if I18n.locale == :en}" href="/?locale=en"
             =t('header.en')
         a.header__gais href="javascript:;"
           | CAIS 2017

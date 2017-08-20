@@ -117,8 +117,29 @@ $header-h: 60px;
   }
 }
 
+// locale
+@include lang('en') {
+  .header {
+    &__right {
+      width: 78%;
+    }
+  }
+
+  .nav {
+    &__item {
+      font-size: 1.6rem;
+      padding: 0 10px;
+    }
+  }
+
+  .logo {
+    align-items: center;
+  }
+};
+
+
 // media query
-@media screen and (max-width: $breakpoint-medium) {
+@include media-median {
   .header {
     background: none;
 
@@ -142,20 +163,6 @@ $header-h: 60px;
       padding-bottom: 60px;
       transform: translateY(-100%);
       transition: all 0.3s;
-
-      .nav {
-        height: auto;
-        flex-direction: column;
-        margin-bottom: 20px;
-
-        &__item {
-          display: inline-block;
-          font-size: 2rem;
-          margin-bottom: 20px;
-          margin-right: 0;
-          padding: 8px 15px;
-        }
-      }
     }
 
     .hamburger {
@@ -168,6 +175,20 @@ $header-h: 60px;
         top: 0;
         transform: translateY(0);
       }
+    }
+  }
+
+  .nav {
+    height: auto;
+    flex-direction: column;
+    margin-bottom: 20px;
+
+    &__item {
+      display: inline-block;
+      font-size: 2rem;
+      margin-bottom: 20px;
+      margin-right: 0;
+      padding: 8px 15px;
     }
   }
 }

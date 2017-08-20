@@ -30,9 +30,10 @@
 
   &__info {
     position: relative;
-    top: -45px;
+    top: -25px;
     font-size: 2.4rem;
     margin-bottom: 35px;
+    padding: 0 10px;
   }
 
   &__line {
@@ -46,13 +47,56 @@
     width: 30px;
     height: 32px;
     margin-right: 10px;
+    flex-shrink: 0;
+  }
+
+  &__address {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 
+// locale
+@include lang('en') {
+  .banner {
+    &__invite-btn {
+      font-size: 2rem;
+    }
+  }
 
+  .solgan {
+    &__card {
+      background-image: img-url('banner-solgan-en.png');
+      padding-bottom: 200 / 1440 * 130%;
+      background-size: 130%;
+    }
+
+    &__info {
+      top: -25px;
+      font-size: 2rem;
+      margin-bottom: 55px;
+    }
+
+    .icon {
+      width: 25px;
+      height: 25px;
+    }
+
+    &__line.is-special {
+      flex-direction: column;
+      flex-wrap: nowrap;
+    }
+
+    &__address-hint {
+      font-size: 1.6rem;
+      padding-left: 40px;
+    }
+  }
+};
 
 // media query
-@media screen and (max-width: $breakpoint-medium) {
+@include media-median {
   .banner {
     &__invite-btn {
       font-size: 1.8rem;
@@ -69,6 +113,7 @@
       top: 0;
       font-size: 1.6rem;
       margin-bottom: 60px;
+      text-align: left;
     }
 
     .icon {
@@ -78,10 +123,17 @@
 
     &__line {
       margin-bottom: 10px;
+      justify-content: flex-start;
+    }
+  }
+}
 
-      span {
-        width: 80%;
-        text-align: left;
+@include lang('en') {
+  @include media-median {
+    .solgan {
+      &__card {
+        padding-bottom: 200 / 1440 * 230%;
+        background-size: 230%;
       }
     }
   }
