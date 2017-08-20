@@ -3,7 +3,8 @@ header.header#site-header
     a.logo href="javascript:;"
       .logo__icon
       .logo__text
-        .logo__cn 2017中国·南京金秋经贸洽谈会 
+        .logo__cn 
+          =t('header.title')
         .logo__en
           .logo__en-line
             span 2017 
@@ -18,16 +19,23 @@ header.header#site-header
             span Fair
     .header__right
       nav.header__nav.nav#js-nav-wrap
-        a.nav__item href="javascript:;" data-index="0" 关于峰会                
-        a.nav__item href="javascript:;" data-index="1" 出席嘉宾
-        a.nav__item href="javascript:;" data-index="2" 峰会议程
-        a.nav__item href="javascript:;" data-index="3" 我要参会
-        a.nav__item href="javascript:;" data-index="4" 参会指南
+        a.nav__item href="javascript:;" data-index="0"
+          =t('section.about')
+        a.nav__item href="javascript:;" data-index="1" 
+          =t('section.guests')
+        a.nav__item href="javascript:;" data-index="2" 
+          =t('section.agenda')
+        a.nav__item href="javascript:;" data-index="3"
+          =t('section.attend')
+        a.nav__item href="javascript:;" data-index="4"
+          =t('section.guide')
       .header__other
         .header__local
-          a.is-active href="javascript:;" 中文
+          a.is-active href="/" 
+            =t('header.cn')
           span |
-          a href="javascript:;" EN
+          a href="/?locale=en"
+            =t('header.en')
         a.header__gais href="javascript:;"
           | CAIS 2017
     .hamburger.hamburger--elastic.js-hamburger

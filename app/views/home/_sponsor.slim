@@ -15,21 +15,26 @@
 
 section.sponsor
   .container
-    = render 'shared/module_title', points: [0, 1, 1, 0, 1, 0], title: '峰会组织单位'
+    = render 'shared/module_title', points: [0, 1, 1, 0, 1, 0], title: t('section.sponsor')
     .sponsor__content
       .sponsor__inline
-        .sponsor__label 主办单位
-        .sponsor__unit 南京市人民政府、中国人工智能产业发展联盟（筹）
+        .sponsor__label 
+          =t('sponsor.main.title')
+        .sponsor__unit 
+          ==t('sponsor.main.unit')
       .sponsor__inline
-        .sponsor__label 承办单位
-        .sponsor__unit 南京市商务局、南京市科学技术委员会、
-        .sponsor__unit 南京经济技术开发区管理委员会、中国信息通信研究院
+        .sponsor__label 
+          =t('sponsor.sub.title')
+        .sponsor__unit 
+          ==t('sponsor.sub.unit')
       .sponsor__inline
-        .sponsor__label 协办单位
-        .sponsor__unit 国际计算机学会（ACM）、国际人工智能协会（AAAI）、
-        .sponsor__unit 中国人工智能学会、江苏省人工智能学会
+        .sponsor__label 
+          =t('sponsor.co.title')
+        .sponsor__unit 
+          ==t('sponsor.co.unit')
       .sponsor__inline
-        .sponsor__label 支持单位
+        .sponsor__label
+          =t('sponsor.support.title')
         .sponsor__links
           - links.each do |link|
             a.sponsor__logo href=link[:href] alt=link[:title] target="_blank"

@@ -30,4 +30,178 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  title: "2017 China Nanjing Golden Autumn Economic and Trade Fair"
+  header:
+    title: ''
+    cn: 'CHN'
+    en: 'EN'
+  section:
+    about: 'About the Summit'
+    feature: 'Highlights of the Summit'
+    sponsor: 'The Organizers'
+    guests: 'Guests'
+    agenda: 'Planed Agenda'
+    attend: 'Join Us'
+    guide: 'Guide of the Summit'
+    contact: 'Contact Us'
+  banner:
+    visit: 'Download the Invitation and Reply Form'
+  about:
+    content: 'The China Artificial Intelligence Summit 2017 (CAIS 2017) will be held at 09:00 am on September 12, 2017 at Zhonghua Hall in Nanjing International Expo Convention Center (Address: No. 300 Jiangdong Middle Road, Nanjing Jiangsu Province, P.R.China). This summit is organized by the Nanjing Municipal People’s Government, China Artificial Intelligence Industry Development Alliance, Nanjing Bureau of Commerce, Nanjing Science and Technology Committee, Nanjing Economic and Technological Development Zone and China Academy of Information and Communications Technology (CAICT), and is supported by leading organizations such as ACM, AAAI, CAAI, Synced and so on. This summit fits the National Discourse of Artificial Intelligence Development promoted by the State Council of China. It will be a great opportunity for experts, entrepreneurs and other representatives to gather together and discuss technological innovation and industrial revolution in the A.I. field.'
+  solgan:
+    time: '09:00-17:30  September 12, 2017 (Tuesday)'
+    address: 'Zhonghua Hall in Nanjing International Expo Convention Center'
+    address_hint: '(Address: No. 300 Jiangdong Middle Road, Nanjing Jiangsu Province, P.R.China)'
+  feature:
+    p1: 'China’s top event in the field since the release of the Development Plan of New Generation Artificial Intelligence by the State Council of China. '
+    p2: 'World’s well-known A.I. scientists and entrepreneurs will attend and share the opinions on technology and industry trend in the A.I. field.'
+    p3: '30 and more well-know experts and more than 1,500 professional audiences; two major theme Forums.'
+    p4: 'Supported by Government, Alliance, Academia, Industry, Investment Institute; Elites gathered together. '
+  sponsor:
+    main:
+      title: 'Host Units'
+      unit: 'Nanjing Municipal People’s Government, <br /> China Artificial Intelligence Industry Development Alliance'
+    sub:
+      title: 'Organizers'
+      unit: 'Nanjing Bureau of Commerce, <br />Nanjing Economic and Technological Development Zone and <br />China Academy of Information and Communications Technology (CAICT).'
+    co:
+      title: 'Co Organizer'
+      unit: 'Association for Computing Machinery (ACM),<br />The Association for the Advancement of Artificial Intelligence (AAAI),<br />Chinese Association for Artificial Intelligence (CAAI) and <br />Association for Artificial Intelligence of Jiangsu'
+    support:
+      title: 'Supported by'
+  guests:
+    list:
+      - name: Jürgen Schmidhuber
+        avatar: guests/jurgen@2x.png
+        intro: The Father of LSTM, Co-director of the Dalle Molle Institute for Artificial Intelligence Research
+
+      - name: 刘  多
+        avatar: guests/刘多@2x.png
+        intro: President of China Information and Communication Research Institute
+
+      - name: 周志华
+        avatar: guests/周志华@2x.png
+        intro: 'Deputy director, Institute of Computer Science and Technology, Nanjing University; Fellow of ACM, AAAI, IEEE, IAPR, IET/IEE'
+
+      - name: LUO Junzhou
+        avatar: guests/罗军舟@2x.png
+        intro: Vice president of ACM (China), head of Computer Science and Engineering Institute, Dean of  Software Institute at Southeast University
+
+      - name: WANG Yongdong
+        avatar: guests/王永东@2x.png
+        intro: Vice President of Microsoft, Head of Microsoft (Asia) Internet Engineering Institute, CTO of Microsoft Asia-Pacific R&D Group
+
+      - name: LI Kaifu
+        avatar: guests/李开复@2x.png
+        intro: Chairman and CEO of Sinovation <br />Ventures
+
+      - name: HU Yu
+        avatar: guests/胡郁@2x.png
+        intro: Executive President of IFLYTEK, President of Consumer Business Group
+
+      - name: YU Kai
+        avatar: guests/余凯@2x.png
+        intro: Founder and CEO of Horizon Robotics
+
+      - name: WU Qiang
+        avatar: guests/吴强@2x.png
+        intro: Vice President, Engineering/Chief Architect, Cloud/ GM, Nanjing R&D Center
+
+      - name: YIN Qi
+        avatar: guests/印奇@2x.png
+        intro: Co-Founder and CEO of Face++
+
+      - name: FU Yingbo
+        avatar: guests/付英波@2x.png
+        intro: President of Face++
+
+      - name: SUN Jian
+        avatar: guests/孙剑@2x.png
+        intro: Chief Scientist of Face++
+
+      - name: QIAN Dongqi
+        avatar: guests/钱东奇@2x.png
+        intro: Founder and Chairman of ECOVACS
+
+      - name: WU Gansha
+        avatar: guests/吴甘沙@2x.png
+        intro: Founder and CEO of UISEE
+
+      - name: WU Jianxin
+        avatar: guests/吴建鑫@2x.png
+        intro: Chief Scientist of MINIEYE, Professor of Nanjing University
+
+      - name: MA Yuchi
+        avatar: guests/马宇驰@2x.png
+        intro: Co-Founder, Chairman and COO of trio.ai
+
+      - name: QI Chao
+        avatar: guests/亓超@2x.png
+        intro: Co-Founder and CTO of trio.ai
+
+      - name: MA Ning
+        avatar: guests/马宁@2x.png
+        intro: CEO of Beijing First Startup Enterprise Management Co.Ltd.
+    hint: More participants, key guests are continuing to update…
+  agendas:
+    list:
+      - time: '08:00-09:00'
+        detail: 'Sign in'
+
+      - time: '09:00-09:30'
+        detail: 'Opening ceremony of China (Nanjing) Golden Autumn Economic and Trade Fair and China Artificial Intelligence Summit 2017 (CAIS 2017) '
+
+      - time: '09:30-09:40'
+        detail: 'China Artificial Intelligence Summit 2017 (CAIS 2017) warm up video; speech given by the organizer'
+
+      - time: '09:40-11:50'
+        detail: 'Topic speeches given by the A.I. scientists <br />and entrepreneurs'
+
+      - time: '11:50-12:00'
+        detail: 'Theme activity'
+
+      - time: '12:00-13:30'
+        detail: 'lunch'
+
+      - time: '13:30-14:50'
+        detail: 'Industry Forum: Renowned A.I. entrepreneurs theme report'
+
+      - time: '14:50-15:20'
+        detail: 'Industry Forum Panel'
+
+      - time: '15:20-15:30'
+        detail: 'Industry Forum: Q & A'
+
+      - time: '15:30-16:50'
+        detail: 'Industry Forum: Renowned A.I. experts <br /> theme report'
+
+      - time: '16:50-17:20'
+        detail: 'Industry Forum Panel'
+
+      - time: '17:20-17:30'
+        detail: 'Industry Forum: Q & A'
+
+      - time: '17:30'
+        detail: 'End of the summit'
+  attend:
+    title: ''
+    entry: 'Click to Join in'
+  guide:
+    title: 'Brief Introduction of Nanjing International Expo Center'
+    description: 'The Nanjing International Expo Center is invested and constructed by Nanjing Hexi  state-owned assets management holding (Group) ltd. and managed and operated by Nanjing Hexi Convention and Exhibition Co., ltd.. It is designed by the TVS company from America. The whole building is magnificent and beautiful, which combines the western and Chinese classical construction style perfectly.<br /> Locating at the heart area of Hexi new town of Nanjing, the Nanjing International Expo Center is a modern exhibition hall, which can provide the services of exhibition, conference, hotel and so on.'
+    subway:
+      label: 'By metro:'
+      desc: 'line 10 or line 2, the No.4 exist of the stop “Expro Center·Yuantong” and 5min by walk; <br /> tram line 1, the stop “Expro Center·Yuantong” and 5min by walk.'
+    hotel:
+      label: 'Near by hotel: '
+      desc: 'Expo Center Hotel   230 meters; <br /> Xinhua Media GDH International Hotel  520 meters; <br /> Fairmont Nanjing 1210 meters'
+    bus:
+      label: 'By Bus: '
+      desc: 'No. 109 or b2 (Jiangdong middle road·Jinling Conversation Center stop); <br /> No. 85 (Hexi Road·Yuantong East stop); <br /> No. 134 (Hexi Road·Yuantong West stop); <br /> No. 109 (Jiangdong middle road·Jinling Conversation Center stop).'
+  contact:
+    media:
+      label: 'Media cooperation:'
+      name: 'HAN Han'
+    summit:
+      label: 'Participating in the summit:'
+      name: 'WANG Zheng'

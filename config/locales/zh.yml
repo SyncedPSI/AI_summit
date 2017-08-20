@@ -1,0 +1,208 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# The following keys must be escaped otherwise they will not be retrieved by
+# the default I18n backend:
+#
+# true, false, on, off, yes, no
+#
+# Instead, surround them with single quotes.
+#
+# en:
+#   'true': 'foo'
+#
+# To learn more, please read the Rails Internationalization guide
+# available at http://guides.rubyonrails.org/i18n.html.
+
+zh:
+  title: "2017中国·南京金秋经贸洽谈会"
+  header:
+    title: '2017中国·南京金秋经贸洽谈会'
+    cn: '中文'
+    en: 'EN'
+  section:
+    about: '关于峰会'
+    feature: '峰会亮点'
+    sponsor: '峰会组织单位'
+    guests: '首批出席嘉宾'
+    agenda: '峰会议程'
+    attend: '我要参会'
+    guide: '参会指南'
+    contact: '联系我们'
+  banner:
+    visit: '邀请函-回执单下载'
+  about:
+    content: '“2017中国人工智能峰会（CAIS 2017）”将于2017年9月12日（星期二）上午09:00，在南京国际博览会议中心（地址：南京江东中路300号）一楼中华厅盛大开幕。本次峰会由南京市人民政府、中国人工智能产业发展联盟主办，南京市商务局、南京市科学技术委员会、南京经济技术开发区管理委员会、中国信息通信研究院承办，ACM、AAAI、中国人工智能学会、江苏省人工智能学会、机器之心、创新工场等一批知名的机构共同参与战略合作。紧扣国务院《新一代人工智能发展规划》，本次峰会邀请全球人工智能领域著名科学家、企业领袖及相关代表参会，共同探讨人工智能技术的创新与应用、产业的变革与突破，一场人工智能合作交流盛会大幕开启!'
+  solgan:
+    time: '2017年9月12日（星期二） 09:00-17:30'
+    address: '南京国际博览会议中心（南京江东中路300号），中华厅'
+    address_hint: ''
+  feature:
+    p1: '国务院《规划》发布后，中国地区顶级人工智能峰会'
+    p2: '全球顶尖人工智能科学家、企业家亲临峰会现场，分享技术、产业趋势'
+    p3: '30＋著名大咖，1500＋专业观众，两大专业主题论坛，互动分享'
+    p4: '政府、联盟、学术界、企业界、投资机构、行业机构鼎力支持，精英汇聚'
+  sponsor:
+    main:
+      title: '主办单位'
+      unit: '南京市人民政府、中国人工智能产业发展联盟（筹）'
+    sub:
+      title: '承办单位'
+      unit: '南京市商务局、南京市科学技术委员会、<br />南京经济技术开发区管理委员会、中国信息通信研究院'
+    co:
+      title: '协办单位'
+      unit: '国际计算机学会（ACM）、国际人工智能协会（AAAI）、<br/> 中国人工智能学会、江苏省人工智能学会'
+    support:
+      title: '支持单位'
+  attend:
+    title: '2017中国·南京金秋经贸洽谈会'
+    entry: '点击参会'
+  guests:
+    list:
+      - name: 'Jürgen Schmidhuber'
+        avatar: 'guests/jurgen@2x.png'
+        intro: '“递归神经网络之父”，LSTM模型鼻祖，Nnaisense公司创始人，瑞士人工智能实验室（IDSIA）研发主任'
+
+      - name: '刘  多'
+        avatar: 'guests/刘多@2x.png'
+        intro: '中国信息通信研究院院长、<br/>党委副书记'
+
+      - name: '周志华'
+        avatar: 'guests/周志华@2x.png'
+        intro: '南京大学计算机科学与技术系副主任、ACM/AAAS/AAAI/IEEEFellow'
+
+      - name: '罗军舟'
+        avatar: 'guests/罗军舟@2x.png'
+        intro: 'ACM中国副主席、东南大学计算机科学与工程学院院长、软件学院院长'
+
+      - name: '王永东'
+        avatar: 'guests/王永东@2x.png'
+        intro: '微软全球资深副总裁、微软（亚洲）互联网工程院院长、微软亚太研发集团首席技术官'
+
+      - name: '李开复'
+        avatar: 'guests/李开复@2x.png'
+        intro: '创新工场董事长、CEO'
+
+      - name: '胡郁'
+        avatar: 'guests/胡郁@2x.png'
+        intro: '科大讯飞执行总裁、消费者事业群总裁'
+
+      - name: '余凯'
+        avatar: 'guests/余凯@2x.png'
+        intro: '地平线机器人创始人、CEO'
+
+      - name: '吴强'
+        avatar: 'guests/吴强@2x.png'
+        intro: '地平线机器人技术副总裁、首席云架构师、南京研发中心总经理'
+
+      - name: '印奇'
+        avatar: 'guests/印奇@2x.png'
+        intro: '旷视科技创始人、CEO'
+
+      - name: '付英波'
+        avatar: 'guests/付英波@2x.png'
+        intro: '旷视科技总裁'
+
+      - name: '孙剑'
+        avatar: 'guests/孙剑@2x.png'
+        intro: '旷视科技首席科学家'
+
+      - name: '钱东奇'
+        avatar: 'guests/钱东奇@2x.png'
+        intro: '科沃斯机器人创始人、董事长'
+
+      - name: '吴甘沙'
+        avatar: 'guests/吴甘沙@2x.png'
+        intro: '驭势科技创始人、CEO'
+
+      - name: '吴建鑫'
+        avatar: 'guests/吴建鑫@2x.png'
+        intro: 'MINIEYE首席科学家、 南京大学教授'
+
+      - name: '马宇驰'
+        avatar: 'guests/马宇驰@2x.png'
+        intro: '三角兽联合创始人、 董事长兼COO'
+
+      - name: '亓超'
+        avatar: 'guests/亓超@2x.png'
+        intro: '三角兽科技联合创始人、CTO'
+
+      - name: '马宁'
+        avatar: 'guests/马宁@2x.png'
+        intro: '第一创客CEO'
+    hint: 更多参会重点嘉宾，正持续更新中………
+  agendas:
+    list:
+      - time: '08:00-09:00'
+        detail: '嘉宾签到'
+
+      - time: '09:00-09:30'
+        detail: '“中国·南京金秋经贸洽谈会”、<br /> “2017中国人工智能峰会（CAIS 2017）”<br /> 开幕仪式'
+
+      - time: '09:30-09:40'
+        detail: '“2017中国人工智能峰会（CAIS 2017）” <br /> 暖场视频播放及致辞'
+
+      - time: '09:40-11:50'
+        detail: '著名人工智能科学家、企业家 <br /> 主旨演讲'
+
+      - time: '11:50-12:00'
+        detail: '专题活动'
+
+      - time: '12:00-13:30'
+        detail: '午餐'
+
+      - time: '13:30-14:50'
+        detail: '产业论坛－著名人工智能企业高管<br /> 主题报告'
+
+      - time: '14:50-15:20'
+        detail: '产业论坛Panel'
+
+      - time: '15:20-15:30'
+        detail: '产业论坛现场问答'
+
+      - time: '15:30-16:50'
+        detail: '技术论坛－著名人工智能技术专家<br /> 主题报告'
+
+      - time: '16:50-17:20'
+        detail: '技术论坛Panel'
+
+      - time: '17:20-17:30'
+        detail: '技术论坛现场问答'
+
+      - time: '17:30'
+        detail: '峰会结束'
+
+  guide:
+    title: '南京国际博览会议中心'
+    description: '南京国际博览中心由南京市河西新城区国有资产经营控股（集团）有限责任公司投资建设，南京河西会议展览有限责任公司经营管理。是美国TVS公司集合中西方建筑设计精髓之力作，融汇世界最新会展理念和南京地域特色，形成“虎踞龙盘”的独特建筑风格，规模宏大，气势磅礴。<br />坐落于南京河西新城中心位置，南京国际博览中心是一座集展会、会议、酒店、配套服务于一体的现代化会展场馆。'
+    subway:
+      label: '地铁：'
+      desc: '10号线、2号线博览中心·元通站下车4号口，出口步行5分钟<br />有轨电车1号线，博览中心·元通站，出口步行5分钟。'
+    hotel:
+      label: '附近酒店：'
+      desc: '南京国际博览中心酒店 230米 <br />南京新华传媒粤海国际大酒店 520米<br />南京金奥费尔蒙酒店 1210米'
+    bus:
+      label: '公交路线：'
+      desc: '109路、b2路（江东中路·金陵会议中心站）<br />85路（河西大街·元通东站）<br />134路（河西大街·元通西站）<br />109路（江东中路·元通站）'
+  contact:
+    media:
+      label: '媒体合作：'
+      name: '韩 晗'
+    summit:
+      label: '参会事宜：'
+      name: '王 正'

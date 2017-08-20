@@ -1,11 +1,13 @@
 footer.footer
   .container
-    .footer__title 联系我们
+    .footer__title =t('section.contact')
     .footer-content
       .footer-inline
-        .footer-inline__title 媒体合作：
+        .footer-inline__title
+          =t('contact.media.label')
         .footer-person
-          .footer-person__name 韩  晗
+          .footer-person__name
+            =t('contact.media.name')
           .footer-person__contact
             i.icon.icon-telphone
             | +86-025-85775037
@@ -14,9 +16,11 @@ footer.footer
             i.icon.icon-email
             a href="mailto:hanna.hh.han@foxmail.com" hanna.hh.han@foxmail.com
       .footer-inline
-        .footer-inline__title 参会事宜：
+        .footer-inline__title 
+          =t('contact.summit.label')
         .footer-person
-          .footer-person__name 王  正
+          .footer-person__name
+            =t('contact.summit.name')
           .footer-person__contact
             i.icon.icon-telphone
             | +86-25-85775030
