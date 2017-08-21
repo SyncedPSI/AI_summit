@@ -32,7 +32,12 @@
 
     &-inline {
       width: 45%;
+      float: left$hack;
       margin-bottom: 20px;
+
+      &:nth-child(2n) {
+        margin-left: 10%$hack;
+      }
     }
 
     &__title {
@@ -44,6 +49,7 @@
         width: 3rem;
         height: 3rem;
         margin-right: 5px;
+        vertical-align: middle;
       }
     }
   }

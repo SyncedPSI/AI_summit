@@ -13,6 +13,7 @@ $header-h: 60px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    overflow:hidden$hack;
   }
 
   &__right {
@@ -20,9 +21,13 @@ $header-h: 60px;
     align-items: center;
     justify-content: space-between;
     width: 73%;
+    margin-left: 27%$hack;
   }
 
   &__other {
+    float: right$hack;
+    line-height: $header-h$hack;
+    margin-top: -$header-h$hack;
   }
 
   &__local {
@@ -68,6 +73,7 @@ $header-h: 60px;
   height: $header-h;
   display: flex;
   align-items: center;
+  line-height: $header-h$hack;
 
   &__item {
     font-size: 1.8rem;
@@ -75,6 +81,7 @@ $header-h: 60px;
     height: 100%;
     display: flex;
     align-items: center;
+    display: inline-block$hack;
 
     &.is-active {
       background-color: $orange;
@@ -90,6 +97,7 @@ $header-h: 60px;
 .logo {
   display: flex;
   align-items: flex-end;
+  position: absolute$hack;
 
   &__icon {
     background-image: img-url('logo.png');
@@ -98,10 +106,14 @@ $header-h: 60px;
     width: 50px;
     height: 50px * 379 / 440;
     margin-right: 8px;
+    position: absolute$hack;
+    margin-top: 9px$hack;
   }
 
   &__text {
     font-size: 12px;
+    padding-left: 55px$hack;
+    padding-top: 15px$hack;
   }
 
   &__cn {

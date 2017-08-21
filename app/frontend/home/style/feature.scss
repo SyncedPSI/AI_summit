@@ -5,13 +5,18 @@
     padding: 60px 0;
     display: flex;
     justify-content: space-between;
+    display: table$hack;
+    border-collapse:separate$hack;
+    border-spacing:2rem$hack;
+    margin: 0 -2rem$hack;
   }
 
   &__item {
     padding: 20px;
     border: 3px solid $cyan;
-    width: 23%;
+    width: 22%;
     border-radius: 8px;
+    display: table-cell$hack;
   }
 
   &__icon {

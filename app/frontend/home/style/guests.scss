@@ -1,6 +1,13 @@
 .guests {
   &__item {
     width: 30%;
+    margin-right: 5%$hack;
+    display: inline-block$hack;
+    vertical-align: top$hack;
+
+    &:nth-child(3n) {
+      margin-right: 0$hack;
+    }
 
     &:nth-last-child(n + 4) {
       margin-bottom: 65px;
