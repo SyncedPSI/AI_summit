@@ -127,6 +127,10 @@ en:
         avatar: guests/吴甘沙@2x.png
         intro: Founder and CEO of UISEE
 
+      - name: 'WANG Feng'
+        avatar: 'guests/王峰@2x.png'
+        intro: '阿里云ET工业大脑总架构师'
+
       - name: WU Jianxin
         avatar: guests/吴建鑫@2x.png
         intro: Chief Scientist of MINIEYE, Professor of Nanjing University

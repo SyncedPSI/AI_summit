@@ -98,19 +98,19 @@ zh:
         avatar: 'guests/李开复@2x.png'
         intro: '创新工场董事长、CEO'
 
-      - name: '胡郁'
+      - name: '胡  郁'
         avatar: 'guests/胡郁@2x.png'
         intro: '科大讯飞执行总裁、消费者事业群总裁'
 
-      - name: '余凯'
+      - name: '余  凯'
         avatar: 'guests/余凯@2x.png'
         intro: '地平线机器人创始人、CEO'
 
-      - name: '吴强'
+      - name: '吴  强'
         avatar: 'guests/吴强@2x.png'
         intro: '地平线机器人技术副总裁、首席云架构师、南京研发中心总经理'
 
-      - name: '印奇'
+      - name: '印  奇'
         avatar: 'guests/印奇@2x.png'
         intro: '旷视科技创始人、CEO'
 
@@ -118,7 +118,7 @@ zh:
         avatar: 'guests/付英波@2x.png'
         intro: '旷视科技总裁'
 
-      - name: '孙剑'
+      - name: '孙  剑'
         avatar: 'guests/孙剑@2x.png'
         intro: '旷视科技首席科学家'
 
@@ -130,6 +130,10 @@ zh:
         avatar: 'guests/吴甘沙@2x.png'
         intro: '驭势科技创始人、CEO'
 
+      - name: '王  峰'
+        avatar: 'guests/王峰@2x.png'
+        intro: '阿里云ET工业大脑总架构师'
+
       - name: '吴建鑫'
         avatar: 'guests/吴建鑫@2x.png'
         intro: 'MINIEYE首席科学家、 南京大学教授'
@@ -138,11 +142,11 @@ zh:
         avatar: 'guests/马宇驰@2x.png'
         intro: '三角兽联合创始人、 董事长兼COO'
 
-      - name: '亓超'
+      - name: '亓  超'
         avatar: 'guests/亓超@2x.png'
         intro: '三角兽科技联合创始人、CTO'
 
-      - name: '马宁'
+      - name: '马  宁'
         avatar: 'guests/马宁@2x.png'
         intro: '第一创客CEO'
     hint: 更多参会重点嘉宾，正持续更新中………
