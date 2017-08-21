@@ -36,9 +36,14 @@
     display: inline-block;
     width: 22%;
     line-height: 0;
+    margin-right: 4%$hack;
 
     img {
       width: 100%;
+    }
+
+    &:nth-child(4n) {
+      margin-right: 0$hack;
     }
 
     &:nth-last-child(n + 5) {
