@@ -4,7 +4,6 @@
   "scripts": {
     "start": "npm run webpack",
     "watch": "bin/webpack-watcher",
-    "webpack": "bin/webpack-dev-server --inline --hot",
     "build": "rails webpacker:compile",
     "clean": "rm -f public/packs/*"
   },
