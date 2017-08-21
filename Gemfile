@@ -1,4 +1,4 @@
-source 'https://rubygems.org'
+source 'https://gems.ruby-china.org'
 
 git_source(:github) do |repo_name|
   repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?('/')
@@ -34,6 +34,12 @@ group :development do
   gem 'rubocop', require: false
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
+
+  gem 'capistrano', '3.9', require: false
+  gem 'capistrano-bundler',  require: false
+  gem 'capistrano-rails',    require: false
+  gem 'capistrano-rbenv',    require: false
+  gem 'capistrano3-puma',    require: false
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
