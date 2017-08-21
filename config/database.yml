@@ -82,4 +82,4 @@ production:
   <<: *default
   database: AI_summit_production
   username: AI_summit
-  password: <%= ENV['AI_SUMMIT_DATABASE_PASSWORD'] %>
+  password: <%= Rails.application.secrets.database_password %>
