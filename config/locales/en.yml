@@ -127,13 +127,21 @@ en:
         avatar: guests/吴甘沙@2x.png
         intro: Founder and CEO of UISEE
 
+      - name: 'Zhichen YU'
+        avatar: 'guests/俞志晨@2x.png'
+        intro: 'Founder and CEO of Turing Robot'
+
       - name: 'WANG Feng'
         avatar: 'guests/王峰@2x.png'
-        intro: '阿里云ET工业大脑总架构师'
+        intro: 'Chief Architect of Alibaba Cloud ET Industrial Brain'
 
       - name: WU Jianxin
         avatar: guests/吴建鑫@2x.png
         intro: Chief Scientist of MINIEYE, Professor of Nanjing University
+
+      - name: 'Guilin QI'
+        avatar: 'guests/漆桂林@2x.png'
+        intro: 'Professor of Southeast University'
 
       - name: MA Yuchi
         avatar: guests/马宇驰@2x.png

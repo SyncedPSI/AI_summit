@@ -47,10 +47,7 @@ $header-h: 60px;
   &__gais {
     font-size: 2rem;
     font-weight: bold;
-
-    &:hover {
-      color: $orange;
-    }
+    display: inline-block;
   }
 
   .hamburger {

@@ -2,8 +2,8 @@
   "name": "AI_summit",
   "private": true,
   "scripts": {
-    "start": "npm run webpack",
-    "watch": "bin/webpack-watcher",
+    "start": "npm run dev",
+    "dev": "./bin/webpack-dev-server --inline --hot",
     "build": "rails webpacker:compile",
     "clean": "rm -f public/packs/*"
   },
