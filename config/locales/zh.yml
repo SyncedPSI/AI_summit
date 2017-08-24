@@ -78,6 +78,10 @@ zh:
         avatar: 'guests/jurgen@2x.png'
         intro: '“递归神经网络之父”，LSTM模型鼻祖，Nnaisense公司创始人，瑞士人工智能实验室（IDSIA）研发主任'
 
+      - name: '郝睿德'
+        avatar: 'guests/郝睿德@2x.png'
+        intro: '意大利工业技术研究院高级研究员、杰出教授，法国机器人技术协会常务副主席'
+
       - name: '刘  多'
         avatar: 'guests/刘多@2x.png'
         intro: '中国信息通信研究院院长、<br/>党委副书记'
@@ -130,6 +134,22 @@ zh:
         avatar: 'guests/吴甘沙@2x.png'
         intro: '驭势科技创始人、CEO'
 
+      - name: '王卓然'
+        avatar: 'guests/王卓然@2x.png'
+        intro: '三角兽科技创始人、CEO'
+
+      - name: '马宇驰'
+        avatar: 'guests/马宇驰@2x.png'
+        intro: '三角兽联合创始人、 董事长兼COO'
+
+      - name: '亓  超'
+        avatar: 'guests/亓超@2x.png'
+        intro: '三角兽科技联合创始人、CTO'
+
+      - name: '朱明杰'
+        avatar: 'guests/朱明杰@2x.png'
+        intro: '氪信信息创始人、CEO'
+
       - name: '俞志晨'
         avatar: 'guests/俞志晨@2x.png'
         intro: '图灵机器人创始人、CEO'
@@ -146,28 +166,20 @@ zh:
         avatar: 'guests/漆桂林@2x.png'
         intro: '东南大学教授'
 
-      - name: '马宇驰'
-        avatar: 'guests/马宇驰@2x.png'
-        intro: '三角兽联合创始人、 董事长兼COO'
-
-      - name: '亓  超'
-        avatar: 'guests/亓超@2x.png'
-        intro: '三角兽科技联合创始人、CTO'
-
       - name: '马  宁'
         avatar: 'guests/马宁@2x.png'
         intro: '第一创客CEO'
     hint: 更多参会重点嘉宾，正持续更新中………
   agendas:
     list:
-      - time: '08:00-09:00'
+      - time: '08:00'
         detail: '嘉宾签到'
 
       - time: '09:00-09:30'
-        detail: '“中国·南京金秋经贸洽谈会”、<br /> “2017中国人工智能峰会（CAIS 2017）”<br /> 开幕仪式'
+        detail: '“2017中国·南京金秋经贸洽谈会<br />暨2017中国人工智能峰会”<br />开幕仪式'
 
       - time: '09:30-09:40'
-        detail: '“2017中国人工智能峰会（CAIS 2017）” <br /> 暖场视频播放及致辞'
+        detail: '“2017中国人工智能峰会”高峰论坛 <br /> 暖场视频播放及致辞'
 
       - time: '09:40-11:50'
         detail: '著名人工智能科学家、企业家 <br /> 主旨演讲'
@@ -178,23 +190,17 @@ zh:
       - time: '12:00-13:30'
         detail: '午餐'
 
-      - time: '13:30-14:50'
+      - time: '12:00-13:30'
+        detail: '午餐'
+
+      - time: '13:30-15:10'
         detail: '产业论坛－著名人工智能企业高管<br /> 主题报告'
 
-      - time: '14:50-15:20'
-        detail: '产业论坛Panel'
+      - time: '15:10-15:50'
+        detail: '“2017中国人工智能峰会” 圆桌论坛'
 
-      - time: '15:20-15:30'
-        detail: '产业论坛现场问答'
-
-      - time: '15:30-16:50'
-        detail: '技术论坛－著名人工智能技术专家<br /> 主题报告'
-
-      - time: '16:50-17:20'
-        detail: '技术论坛Panel'
-
-      - time: '17:20-17:30'
-        detail: '技术论坛现场问答'
+      - time: '15:50-17:30'
+        detail: '技术论坛－著名人工智能企业高管 <br />主题报告'
 
       - time: '17:30'
         detail: '峰会结束'
