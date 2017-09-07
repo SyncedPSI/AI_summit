@@ -1,4 +1,4 @@
-- links = [ \
+- support_links = [ \
   { title: '机器之心', logo: 'logos/logo-synced.png', href: 'https://www.jiqizhixin.com/'}, \
   { title: '高创中国', logo: 'logos/logo-gaochuangcn.png', href: 'http://www.gaochuangcn.com/'},  \
   { title: 'Horizon Robotics', logo: 'logos/logo-horizon.png', href: 'http://www.horizon.ai/'}, \
@@ -11,6 +11,32 @@
   { title: 'ROBOTX SPACE', logo: 'logos/logo-robot-space.png', href: 'http://www.robotxspace.com/'},  \
   { title: '第一创客', logo: 'logos/logo-startup.png', href: 'javascript:;'}, \
   { title: '镁客网', logo: 'logos/logo-meike.png', href: 'http://www.im2maker.com/'}  \
+]
+
+- cooperation_links = [ \
+  { title: '康佳之星', logo: 'logos/合作单位 1-康佳之星.png', href: 'javascript:;'}, \
+  { title: '芝麻科技', logo: 'logos/合作单位 2-芝麻科技.png', href: 'http://www.zhimatech.com/'},  \
+  { title: '企运网', logo: 'logos/合作单位 3-企运网.png', href: 'http://www.jseoss.com/html/index.html'}, \
+  { title: '紫丁香', logo: 'logos/合作单位 4-紫丁香.png', href: 'javascript:;'},  \
+  { title: '小鹿创萌', logo: 'logos/合作单位 5-小鹿创萌.png', href: 'javascript:;'}, \
+  { title: '创新公园', logo: 'logos/合作单位 6-创新公园.png', href: 'javascript:;'},  \
+  { title: '南邮', logo: 'logos/合作单位 7-南邮.png', href: 'javascript:;'}, \
+  { title: '亿嘉和', logo: 'logos/合作单位 8-亿嘉和.png', href: 'javascript:;'},  \
+]
+
+- media_links = [ \
+  { title: '腾讯', logo: 'logos/合作媒体 1-腾讯.png', href: 'http://www.qq.com/'}, \
+  { title: '网易科技', logo: 'logos/合作媒体 2-网易科技.png', href: 'http://tech.163.com/'},  \
+  { title: '智能前线', logo: 'logos/合作媒体 3-智能前线.png', href: 'http://www.iby8.com/'}, \
+  { title: '大咖说', logo: 'logos/合作单位 4-紫丁香.png', href: 'http://www.itdks.com/'},  \
+  { title: '龙虎网', logo: 'logos/合作媒体 5-龙虎网.png', href: 'http://www.longhoo.net/index.html'}, \
+  { title: '品玩', logo: 'logos/合作媒体 6-品玩.png', href: 'http://www.pingwest.com/'},  \
+  { title: '机器人库', logo: 'logos/合作媒体 7-机器人库.png', href: 'http://www.jiqirenku.com/'}, \
+  { title: '大数据文摘', logo: 'logos/合作媒体 8-大数据文摘.png', href: 'javascript:;'},  \
+]
+
+- online_links = [ \
+  { title: '网易直播', logo: 'logos/合作直播机构 -网易直播.png', href: 'http://v.163.com/'}, \
 ]
 
 section.sponsor
@@ -36,6 +62,27 @@ section.sponsor
         .sponsor__label
           =t('sponsor.support.title')
         .sponsor__links
-          - links.each do |link|
+          - support_links.each do |link|
+            a.sponsor__logo href=link[:href] alt=link[:title] target="_blank"
+              img src=image_path(link[:logo])
+      .sponsor__inline
+        .sponsor__label
+          =t('sponsor.cooperation.title')
+        .sponsor__links
+          - cooperation_links.each do |link|
+            a.sponsor__logo href=link[:href] alt=link[:title] target="_blank"
+              img src=image_path(link[:logo])
+      .sponsor__inline
+        .sponsor__label
+          =t('sponsor.media.title')
+        .sponsor__links
+          - media_links.each do |link|
+            a.sponsor__logo href=link[:href] alt=link[:title] target="_blank"
+              img src=image_path(link[:logo])
+      .sponsor__inline
+        .sponsor__label
+          =t('sponsor.online.title')
+        .sponsor__links
+          - online_links.each do |link|
             a.sponsor__logo href=link[:href] alt=link[:title] target="_blank"
               img src=image_path(link[:logo])
