@@ -46,6 +46,7 @@ en:
     contact: 'Contact Us'
   banner:
     visit: 'Download the Invitation and Reply Form'
+    end: 'Closing date for entries'
   about:
     content: 'The China Artificial Intelligence Summit 2017 (CAIS 2017) will be held at 09:00 am on September 12, 2017 at Zhonghua Hall in Nanjing International Expo Convention Center (Address: No. 300 Jiangdong Middle Road, Nanjing Jiangsu Province, P.R.China). This summit is organized by the Nanjing Municipal People’s Government, China Artificial Intelligence Industry Development Alliance, Nanjing Bureau of Commerce, Nanjing Science and Technology Committee, Nanjing Economic and Technological Development Zone and China Academy of Information and Communications Technology (CAICT), and is supported by leading organizations such as ACM, AAAI, CAAI, Synced and so on. This summit fits the National Discourse of Artificial Intelligence Development promoted by the State Council of China. It will be a great opportunity for experts, entrepreneurs and other representatives to gather together and discuss technological innovation and industrial revolution in the A.I. field.'
   solgan:
@@ -162,6 +163,10 @@ en:
       - name: 'Guilin QI'
         avatar: 'guests/漆桂林@2x.png'
         intro: 'Professor of Southeast University'
+
+      - name: '程承旗'
+        avatar: 'guests/程承旗@2x.png'
+        intro: '北京大学先进技术研究院副院长'
 
       - name: MA Ning
         avatar: guests/马宁@2x.png
