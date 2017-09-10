@@ -2,12 +2,15 @@
   .container
     = render 'shared/module_title', points: [1, 1, 0, 1, 1, 0], title: t('section.guide')
     .guide-content
-      div
-        img.guide__image src=image_path('center-img.png')
-      .guide__title 
-        =t('guide.title')
-      .guide__description 
-        ==t('guide.description')
+      .guide__intro
+        .guide__intro-left
+          div.guide__pic
+            img.guide__image src=image_path('南京国际博览会议中心III@2x.png')
+        .guide__intro-right
+          .guide__title 
+            =t('guide.title')
+          .guide__description 
+            ==t('guide.description')
       .guide-location
         .guide-location-inline
           .guide-location__title

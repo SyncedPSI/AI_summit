@@ -39,8 +39,8 @@ zh:
     about: '关于峰会'
     feature: '峰会亮点'
     sponsor: '峰会组织单位'
-    guests: '首批出席嘉宾'
-    agenda: '峰会议程'
+    guests: '出席嘉宾'
+    agenda: '活动议程'
     attend: '我要参会'
     guide: '参会指南'
     contact: '联系我们'
@@ -57,7 +57,7 @@ zh:
     p1: '国务院《规划》发布后，中国地区顶级人工智能峰会'
     p2: '全球顶尖人工智能科学家、企业家亲临峰会现场，分享技术、产业趋势'
     p3: '30＋著名大咖，1500＋专业观众，两大专业主题论坛，互动分享'
-    p4: '政府、联盟、学术界、企业界、投资机构、行业机构鼎力支持，精英汇聚'
+    p4: '政府、联盟、学术界、企业界、投资机构、行业机构鼎力支持，共促发展'
   sponsor:
     main:
       title: '主办单位'
@@ -67,7 +67,7 @@ zh:
       unit: '南京市商务局、南京市科学技术委员会、<br />南京经济技术开发区管理委员会、中国信息通信研究院'
     co:
       title: '协办单位'
-      unit: '国际计算机学会（ACM）、国际人工智能协会（AAAI）<br/> 中国人工智能产业发展联盟（筹） 、中国人工智能学会、江苏省人工智能学会'
+      unit: '国际计算机学会（ACM）、国际人工智能协会（AAAI）、<br />中国人工智能产业发展联盟（筹）（AIIA）、<br />中国人工智能学会（CAAI）、江苏省人工智能学会（JSAI）'
     support:
       title: '支持单位'
     cooperation:
@@ -81,57 +81,45 @@ zh:
     entry: '点击参会'
   guests:
     list:
-      - name: 'Jürgen Schmidhuber'
-        avatar: 'guests/jurgen@2x.png'
-        intro: '“递归神经网络之父”，LSTM模型鼻祖，Nnaisense公司创始人，瑞士人工智能实验室（IDSIA）研发主任'
-
-      - name: '郝睿德'
-        avatar: 'guests/郝睿德@2x.png'
-        intro: '意大利工业技术研究院高级研究员、杰出教授，法国机器人技术协会常务副主席'
-
       - name: '刘  多'
-        avatar: 'guests/刘多@2x.png'
-        intro: '中国信息通信研究院院长、<br/>党委副书记'
+        avatar: 'guests/刘  多@2x.png'
+        intro: '中国信息通信研究院院长，中国人工智能产业发展联盟（筹）秘书长'
+
+      - name: '尤尔根·施米德胡贝'
+        avatar: 'guests/尤尔根·施米德胡贝@2x.png'
+        intro: '德国计算机科学家，“递归神经网络之父”，LSTM模型鼻祖，Nnaisense公司创始人'
 
       - name: '周志华'
         avatar: 'guests/周志华@2x.png'
-        intro: '南京大学计算机科学与技术系副主任、ACM/AAAS/AAAI/IEEEFellow'
-
-      - name: '罗军舟'
-        avatar: 'guests/罗军舟@2x.png'
-        intro: 'ACM中国副主席、东南大学计算机科学与工程学院院长、软件学院院长'
-
-      - name: '王永东'
-        avatar: 'guests/王永东@2x.png'
-        intro: '微软全球资深副总裁、微软（亚洲）互联网工程院院长、微软亚太研发集团首席技术官'
+        intro: '南京大学计算机系教授，ACM/AAAI/AAAS/IEEE/IAPR会士'
 
       - name: '李开复'
         avatar: 'guests/李开复@2x.png'
         intro: '创新工场董事长、CEO'
 
+      - name: '王永东'
+        avatar: 'guests/王永东@2x.png'
+        intro: '微软全球资深副总裁、微软（亚洲）互联网工程院院长、微软亚太研发集团首席技术官'
+
       - name: '胡  郁'
-        avatar: 'guests/胡郁@2x.png'
+        avatar: 'guests/胡  郁@2x.png'
         intro: '科大讯飞执行总裁、消费者事业群总裁'
 
+      - name: '罗军舟'
+        avatar: 'guests/罗军舟@2x.png'
+        intro: 'ACM中国理事会常务理事，东南大学计算机科学与工程学院院长、软件学院院长'
+
+      - name: '郝睿德'
+        avatar: 'guests/郝睿德@2x.png'
+        intro: '意大利工业技术研究院高级研究员、杰出教授，法国机器人技术协会常务副主席'
+
       - name: '余  凯'
-        avatar: 'guests/余凯@2x.png'
+        avatar: 'guests/余  凯@2x.png'
         intro: '地平线机器人创始人、CEO'
 
-      - name: '吴  强'
-        avatar: 'guests/吴强@2x.png'
-        intro: '地平线机器人技术副总裁、首席云架构师、南京研发中心总经理'
-
       - name: '印  奇'
-        avatar: 'guests/印奇@2x.png'
+        avatar: 'guests/印  奇@2x.png'
         intro: '旷视科技创始人、CEO'
-
-      - name: '付英波'
-        avatar: 'guests/付英波@2x.png'
-        intro: '旷视科技总裁'
-
-      - name: '孙  剑'
-        avatar: 'guests/孙剑@2x.png'
-        intro: '旷视科技首席科学家'
 
       - name: '钱东奇'
         avatar: 'guests/钱东奇@2x.png'
@@ -141,17 +129,9 @@ zh:
         avatar: 'guests/吴甘沙@2x.png'
         intro: '驭势科技创始人、CEO'
 
-      - name: '王卓然'
-        avatar: 'guests/王卓然@2x.png'
-        intro: '三角兽科技创始人、CEO'
-
       - name: '马宇驰'
         avatar: 'guests/马宇驰@2x.png'
-        intro: '三角兽联合创始人、 董事长兼COO'
-
-      - name: '亓  超'
-        avatar: 'guests/亓超@2x.png'
-        intro: '三角兽科技联合创始人、CTO'
+        intro: '三角兽科技创始人、董事长'
 
       - name: '朱明杰'
         avatar: 'guests/朱明杰@2x.png'
@@ -161,9 +141,21 @@ zh:
         avatar: 'guests/俞志晨@2x.png'
         intro: '图灵机器人创始人、CEO'
 
+      - name: '吴  强'
+        avatar: 'guests/吴  强@2x.png'
+        intro: '地平线机器人技术副总裁、首席云架构师'
+
       - name: '王  峰'
-        avatar: 'guests/王峰@2x.png'
+        avatar: 'guests/王  峰@2x.png'
         intro: '阿里云ET工业大脑总架构师'
+
+      - name: '戴宇荣'
+        avatar: 'guests/戴宇荣@2x.png'
+        intro: '腾讯优图研究总监'
+
+      - name: '孙  剑'
+        avatar: 'guests/孙  剑@2x.png'
+        intro: '旷视科技首席科学家'
 
       - name: '吴建鑫'
         avatar: 'guests/吴建鑫@2x.png'
@@ -173,12 +165,24 @@ zh:
         avatar: 'guests/漆桂林@2x.png'
         intro: '东南大学教授'
 
-      - name: '程承旗'
-        avatar: 'guests/程承旗@2x.png'
-        intro: '北京大学先进技术研究院副院长'
+      - name: '付英波'
+        avatar: 'guests/付英波@2x.png'
+        intro: '旷视科技总裁'
+
+      - name: '李洪波'
+        avatar: 'guests/李洪波@2x.png'
+        intro: '极智嘉科技CTO'
+
+      - name: '杨  波'
+        avatar: 'guests/杨  波@2x.png'
+        intro: '康佳集团副总裁'
+
+      - name: '黄昊文'
+        avatar: 'guests/黄昊文@2x.png'
+        intro: '长城会副总裁'
 
       - name: '马  宁'
-        avatar: 'guests/马宁@2x.png'
+        avatar: 'guests/马  宁@2x.png'
         intro: '第一创客CEO'
     hint: 更多参会重点嘉宾，正持续更新中………
   agendas:

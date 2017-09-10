@@ -2,10 +2,4 @@
   .container
     = render 'shared/module_title', points: [0, 1, 1, 1, 0, 0], title: t('section.agenda')
     .agenda-content
-      - t('agendas.list').each do |agenda|
-        .agenda-inline
-          p.agenda-inline__time
-            i.icon.icon-time
-            =agenda[:time]
-          p.agenda-inline__detail
-            ==agenda[:detail]
+      img src=image_path('agenda.png')
