@@ -102,6 +102,23 @@
       font-size: 1.6rem;
     }
 
+    &__intro {
+      flex-wrap: wrap;
+    }
+
+    &__intro-left {
+      flex-basis: 100%;
+    }
+
+    &__intro-right {
+      flex-basis: 100%;
+      padding-left: 0;
+    }
+
+    &__title {
+      margin-top: 20px;
+    }
+
     &-location {
 
       &__description {
