@@ -9,9 +9,21 @@
 
   &-content {
     margin: 5rem 0 10rem 0;
+    height: 0;
+    background-image: url('../agenda.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-bottom: 100% * 3473 / 2100;
+  }
+}
 
-    img {
-      width: 100%;
+
+// locale
+@include lang('en') {
+  .agenda {
+    &-content {
+      background-image: url('../agenda-en.png');
+      padding-bottom: 100% * 3688 / 2099;
     }
   }
 }

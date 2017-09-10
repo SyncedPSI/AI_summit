@@ -40,7 +40,7 @@ en:
     feature: 'Highlights of the Summit'
     sponsor: 'The Organizers'
     guests: 'Guests'
-    agenda: 'Planed Agenda'
+    agenda: 'Conference Agenda'
     attend: 'Join Us'
     guide: 'Guide of the Summit'
     contact: 'Contact Us'
@@ -57,98 +57,78 @@ en:
     p1: 'China’s top event in the field since the release of the Development Plan of New Generation Artificial Intelligence by the State Council of China. '
     p2: 'World’s well-known A.I. scientists and entrepreneurs will attend and share the opinions on technology and industry trend in the A.I. field.'
     p3: '30 and more well-know experts and more than 1,500 professional audiences; two major theme Forums.'
-    p4: 'Supported by Government, Alliance, Academia, Industry, Investment Institute; Elites gathered together. '
+    p4: 'Supported and promoted by Government,Alliance, Academia, Industry, Investment Institute'
   sponsor:
     main:
       title: 'Host Units'
-      unit: 'Nanjing Municipal People’s Government, <br /> Jiangsu Provincial Department of Science and Technology'
+      unit: 'Nanjing Municipal People’s Government <br /> Jiangsu Provincial Department of Science and Technology'
     sub:
       title: 'Organizers'
-      unit: 'Nanjing Bureau of Commerce, <br />Nanjing Economic and Technological Development Zone and <br />China Academy of Information and Communications Technology (CAICT).'
+      unit: 'Nanjing Bureau of Commerce <br /> Nanjing Science and Technology Committee <br />Nanjing Economic and Technological Development Zone <br /> China Academy of Information and Communications Technology'
     co:
       title: 'Co Organizer'
-      unit: 'Association for Computing Machinery (ACM),<br />The Association for the Advancement of Artificial Intelligence (AAAI),<br />China Artificial Intelligence Industry Development Alliance (AIIA), <br />Chinese Association for Artificial Intelligence (CAAI) and <br />Association for Artificial Intelligence of Jiangsu'
+      unit: 'Association for Computing Machinery (ACM) <br /> Association for the Advancement of Artificial Intelligence (AAAI) <br /> China Artificial Intelligence Industry Development Alliance (AIIA) <br /> Chinese Association for Artificial Intelligence (CAAI) <br /> Jiangsu Association of Artificial Intelligence (JSAI)'
     support:
       title: 'Supported by'
     cooperation:
-      title: '合作单位'
+      title: 'Cooperation'
     media:
-      title: '合作媒体'
+      title: 'Media'
     online:
-      title: '合作直播机构'
+      title: 'Live Broadcast'
   guests:
     list:
-      - name: Jürgen Schmidhuber
-        avatar: guests/jurgen@2x.png
-        intro: The Father of LSTM, Co-director of the Dalle Molle Institute for Artificial Intelligence Research
+      - name: 'Duo LIU'
+        avatar: 'guests/刘  多@2x.png'
+        intro: 'President of China Academy of Information and Communications Technology (CAICT), Secretary General of Artificial Intelligence Industry Alliance of China (AIIA)'
+
+      - name: 'Jürgen Schmidhuber'
+        avatar: 'guests/尤尔根·施米德胡贝@2x.png'
+        intro: 'German Computer Scientists, Father of Recurrent Neural Networks (RNN), Inventor of LSTM Theory, Nnaisense Company Founder'
+
+      - name: 'Zhi-Hua ZHOU'
+        avatar: 'guests/周志华@2x.png'
+        intro: 'Professor of Computer Science, Nanjing University, ACM/AAAI/IEEE Fellow, President of Jiangsu Association of AI, Program Chair of AAAI 2019'
+
+      - name: 'Kai-Fu LEE'
+        avatar: 'guests/李开复@2x.png'
+        intro: 'Chairman and CEO of Sinovation Ventures'
+
+      - name: 'Yongdong WANG'
+        avatar: 'guests/王永东@2x.png'
+        intro: 'Microsoft Corporate Vice President, STC Asia CTO, Asia Pacific R&D Group'
+
+      - name: 'Yu HU'
+        avatar: 'guests/胡  郁@2x.png'
+        intro: 'Executive President of iFLYTEK, President of Consumer Business Group'
+
+      - name: 'Junzhou LUO'
+        avatar: 'guests/罗军舟@2x.png'
+        intro: 'ACM Executive Director of China Council, Head of Computer Science and Engineering Institute, Dean of  Software Institute at Southeast University'
 
       - name: 'Ryad Chellali'
         avatar: 'guests/郝睿德@2x.png'
-        intro: 'Senior Researcher, Distinguished Professor, Institute of Industrial Technology, Italy Executive Vice President, French Robotics Association'
+        intro: 'Senior Researcher & Distinguished Professor, Institute of Industrial Technology, Italy; Executive Vice President, French Robotics Association'
 
-      - name: LIU Duo
-        avatar: guests/刘多@2x.png
-        intro: President of China Information and Communication Research Institute
+      - name: 'Kai YU'
+        avatar: 'guests/余  凯@2x.png'
+        intro: 'Founder and CEO of Horizon Robotics'
 
-      - name: ZHOU Zhihua
-        avatar: guests/周志华@2x.png
-        intro: 'Deputy director, Institute of Computer Science and Technology, Nanjing University; Fellow of ACM, AAAI, IEEE, IAPR, IET/IEE'
+      - name: 'Qi YIN'
+        avatar: 'guests/印  奇@2x.png'
+        intro: 'Founder and CEO of Megvii'
 
-      - name: LUO Junzhou
-        avatar: guests/罗军舟@2x.png
-        intro: Vice president of ACM (China), head of Computer Science and Engineering Institute, Dean of  Software Institute at Southeast University
+      - name: 'Dongqi QIAN'
+        avatar: 'guests/钱东奇@2x.png'
+        intro: 'Founder and Chairman of ECOVACS'
 
-      - name: WANG Yongdong
-        avatar: guests/王永东@2x.png
-        intro: Vice President of Microsoft, Head of Microsoft (Asia) Internet Engineering Institute, CTO of Microsoft Asia-Pacific R&D Group
+      - name: 'Gansha WU'
+        avatar: 'guests/吴甘沙@2x.png'
+        intro: 'Founder and CEO of UISEE'
 
-      - name: LI Kaifu
-        avatar: guests/李开复@2x.png
-        intro: Chairman and CEO of Sinovation <br />Ventures
-
-      - name: HU Yu
-        avatar: guests/胡郁@2x.png
-        intro: Executive President of IFLYTEK, President of Consumer Business Group
-
-      - name: YU Kai
-        avatar: guests/余凯@2x.png
-        intro: Founder and CEO of Horizon Robotics
-
-      - name: WU Qiang
-        avatar: guests/吴强@2x.png
-        intro: Vice President, Engineering/Chief Architect, Cloud/ GM, Nanjing R&D Center
-
-      - name: YIN Qi
-        avatar: guests/印奇@2x.png
-        intro: Co-Founder and CEO of Face++
-
-      - name: FU Yingbo
-        avatar: guests/付英波@2x.png
-        intro: President of Face++
-
-      - name: SUN Jian
-        avatar: guests/孙剑@2x.png
-        intro: Chief Scientist of Face++
-
-      - name: QIAN Dongqi
-        avatar: guests/钱东奇@2x.png
-        intro: Founder and Chairman of ECOVACS
-
-      - name: WU Gansha
-        avatar: guests/吴甘沙@2x.png
-        intro: Founder and CEO of UISEE
-
-      - name: 'Zhuoran WANG'
-        avatar: 'guests/王卓然@2x.png'
-        intro: 'Founder and CEO of Tricorn'
-
-      - name: MA Yuchi
-        avatar: guests/马宇驰@2x.png
-        intro: Co-Founder, Chairman and COO of trio.ai
-
-      - name: QI Chao
-        avatar: guests/亓超@2x.png
-        intro: Co-Founder and CTO of trio.ai
+      - name: 'Yuchi MA'
+        avatar: 'guests/马宇驰@2x.png'
+        intro: 'Founder and Chairman of Tricorn'
 
       - name: 'Mingjie ZHU'
         avatar: 'guests/朱明杰@2x.png'
@@ -158,26 +138,51 @@ en:
         avatar: 'guests/俞志晨@2x.png'
         intro: 'Founder and CEO of Turing Robot'
 
-      - name: 'WANG Feng'
-        avatar: 'guests/王峰@2x.png'
+      - name: 'Qiang WU'
+        avatar: 'guests/吴  强@2x.png'
+        intro: 'Vice President, Chief Architect of Horizon Robotics'
+
+      - name: 'Evan WANG'
+        avatar: 'guests/王  峰@2x.png'
         intro: 'Chief Architect of Alibaba Cloud ET Industrial Brain'
 
-      - name: WU Jianxin
-        avatar: guests/吴建鑫@2x.png
-        intro: Chief Scientist of MINIEYE, Professor of Nanjing University
+      - name: 'Yurong DAI'
+        avatar: 'guests/戴宇荣@2x.png'
+        intro: 'Research Director of Tencent YouTu Lab'
+
+      - name: 'Jian SUN'
+        avatar: 'guests/孙  剑@2x.png'
+        intro: 'Chief Scientist of Megvii'
+
+      - name: 'Jianxin WU'
+        avatar: 'guests/吴建鑫@2x.png'
+        intro: 'Chief Scientist of MINIEYE, Professor of Nanjing University'
 
       - name: 'Guilin QI'
         avatar: 'guests/漆桂林@2x.png'
         intro: 'Professor of Southeast University'
 
-      - name: '程承旗'
-        avatar: 'guests/程承旗@2x.png'
-        intro: '北京大学先进技术研究院副院长'
+      - name: 'Yingbo FU'
+        avatar: 'guests/付英波@2x.png'
+        intro: 'President of Megvii'
 
-      - name: MA Ning
-        avatar: guests/马宁@2x.png
-        intro: CEO of Beijing First Startup Enterprise Management Co.Ltd.
+      - name: 'Hongbo LI'
+        avatar: 'guests/李洪波@2x.png'
+        intro: 'CTO of Beijing Geek+ Technology'
+
+      - name: 'Bo YANG'
+        avatar: 'guests/杨  波@2x.png'
+        intro: 'Vice President of Konka Group'
+
+      - name: 'Haowen HUANG'
+        avatar: 'guests/黄昊文@2x.png'
+        intro: 'Vice President of GWC'
+
+      - name: 'Ning MA'
+        avatar: 'guests/马  宁@2x.png'
+        intro: 'CEO of First Startup'
     hint: More participants, key guests are continuing to update…
+  agendas:
   agendas:
     list:
       - time: '08:00'
