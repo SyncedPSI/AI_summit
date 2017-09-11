@@ -69,6 +69,10 @@
       color: #fff;
       background-color: $cyan;
     }
+
+    &.is-end {
+      cursor: no-drop;
+    }
   }
 
   .solgan {

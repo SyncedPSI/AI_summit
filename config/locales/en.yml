@@ -46,6 +46,7 @@ en:
     contact: 'Contact Us'
   banner:
     visit: 'Download the Invitation and Reply Form'
+    live: 'Watch the live broadcast'
     end: 'Closing date for entries'
   about:
     content: 'The China Artificial Intelligence Summit 2017 (CAIS 2017) will be held at 09:00 a.m. on September 12, 2017 at Zhonghua Hall in Nanjing International Expo Convention Center (Address: No. 300 Jiangdong Middle Road, Nanjing, Jiangsu Province, P.R.China). This summit is organized by the Nanjing Municipal People’s Government, Jiangsu Provincial Department of Science and Technology, Nanjing Bureau of Commerce, Nanjing Science and Technology Committee, Nanjing Economic and Technological Development Zone and China Academy of Information and Communications Technology (CAICT), and is supported by leading organizations such as ACM, AAAI, AIIA, CAAI, JSAI, Synced, Sinovation Ventures and so on. This summit fits the National Discourse of Artificial Intelligence Development promoted by the State Council of China. It will be a great opportunity for experts, entrepreneurs and other representatives to gather together and discuss technological innovation and industrial revolution in the A.I. field.'
@@ -220,6 +221,7 @@ en:
   attend:
     title: ''
     entry: 'Click to Join in'
+    end: 'Closing date for entries'
   guide:
     title: 'Brief Introduction of Nanjing International Expo Center'
     description: 'The Nanjing International Expo Center is invested and constructed by Nanjing Hexi  state-owned assets management holding (Group) ltd. and managed and operated by Nanjing Hexi Convention and Exhibition Co., ltd.. It is designed by the TVS company from America. The whole building is magnificent and beautiful, which combines the western and Chinese classical construction style perfectly.<br /> Locating at the heart area of Hexi new town of Nanjing, the Nanjing International Expo Center is a modern exhibition hall, which can provide the services of exhibition, conference, hotel and so on.'

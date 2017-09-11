@@ -2,6 +2,10 @@
   = render 'shared/solgan'
   .container
     / a.banner__invite-btn href="A.CAIS2017邀请函电子稿.pdf" download="A.CAIS2017邀请函电子稿.pdf"
-    /   =t('banner.visit')
-    .banner__end
-      =t('banner.end')
+    /   =t('banner.live')
+
+    / .banner__end
+    /   =t('banner.end')
+
+    a.banner__live.js-scrollto-live href="javascript:;"
+      =t('banner.live')
