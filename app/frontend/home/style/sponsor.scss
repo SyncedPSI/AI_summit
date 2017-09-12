@@ -52,6 +52,10 @@
         box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
       }
     }
+
+    #live & {
+      filter: grayscale(1);
+    }
   }
 
   &__logo {

@@ -91,5 +91,5 @@ section.sponsor
         .sponsor__links
           - online_links.each do |link|
             .sponsor__filed
-              a.sponsor__logo href=link[:href] alt=link[:title] target="_blank"
+              a.sponsor__logo href='javascript:;' alt=link[:title] target="_blank"
                 img src=image_path(link[:logo])
